@@ -2368,7 +2368,7 @@ p.merchantOfferDesc {
 .cycle-slideshow {
 	float: left;
 }
-.cycle-slideshow div {
+.cycle-slideshow div.cycle-slide {
 	width: 320px;
 	height: 364px;
 	overflow: hidden;
