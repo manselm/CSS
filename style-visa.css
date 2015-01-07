@@ -787,7 +787,7 @@ a.merchantLink {
 .cycle-slideshow {
 	float: left;
 }
-.cycle-slideshow div {
+.cycle-slideshow div.cycle-slide {
 	width: 670px;
 	height: 130px
 }
@@ -803,12 +803,24 @@ a.merchantLink {
 	right: -2px;
 	z-index: 2000;
 }
+/* Center Logos */
+
+.page .center {
+    display: table;
+    width: 100%;
+    height: 100px; /* for demo only */
+}
+.page .center .v-align {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
 .page a {
 	float: left;
 	display: inline-block;
-	width: 171px;
-	height: 94px;
-	padding: 10px 20px 15px 20px;
+	width: 211px;
+	height: 119px;
+	xpadding: 0px 0px 15px;
 	border: 1px solid #dedddd;
 	text-decoration: none;
 }
