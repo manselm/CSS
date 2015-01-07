@@ -192,11 +192,11 @@ ul.global_navigation li a:hover {
 .global_wrapper-footer {
 	clear: both;
 	height: 69px;
-	background-color: #1c1391;
-	background: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
+	xbackground-color: #1c1391;
+	xbackground: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
+	xbackground: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
+	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
+	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
 }
 .global_footer {
 	width: 1024px;
@@ -214,7 +214,7 @@ ul.global_navigation li a:hover {
 	display: inline;
 	position: relative;
 	top: 4px;
-	color: #ffffff;
+	color: #d8dadc;
 	font-size: 12px;
 	font-weight: bold;
 }
@@ -222,7 +222,7 @@ ul.global_navigation li a:hover {
 	display: inline-block;
 }
 .global_footer-right ul li.global_social-list-border {
-	border-right: 2px solid #ffffff;
+	border-right: 2px solid #d8dadc;
 }
 .global_footer-right ul li.global_social-list-height {
 	height: 41px;
@@ -238,7 +238,7 @@ ul.global_navigation li a:hover {
 	top: 9px;
 }
 a.global_link-facebook {
-	background-image: url(|IMAGESRC|/footer-facebook.png);
+	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
 	display: block;
 	width: 10px;
 	height: 19px;
@@ -247,7 +247,7 @@ a.global_link-facebook {
 	white-space: nowrap;
 }
 a.global_link-twitter {
-	background-image: url(|IMAGESRC|/footer-twitter.png);
+	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
 	display: block;
 	width: 16px;
 	height: 19px;
@@ -256,7 +256,7 @@ a.global_link-twitter {
 	white-space: nowrap;
 }
 a.global_link-mail {
-	background-image: url(|IMAGESRC|/footer-mail.png);
+	background-image: url(|IMAGESRC|/footer-mail-gray.png);
 	display: block;
 	width: 18px;
 	height: 19px;
@@ -265,7 +265,7 @@ a.global_link-mail {
 	white-space: nowrap;
 }
 a.global_link-ios {
-	background-image: url(|IMAGESRC|/footer-ios.png);
+	background-image: url(|IMAGESRC|/footer-ios-gray.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -274,7 +274,7 @@ a.global_link-ios {
 	white-space: nowrap;
 }
 a.global_link-android {
-	background-image: url(|IMAGESRC|/footer-android.png);
+	background-image: url(|IMAGESRC|/footer-android-gray.png);
 	display: block;
 	width: 15px;
 	height: 19px;
