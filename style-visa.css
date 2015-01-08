@@ -1884,7 +1884,7 @@ ul.global_navigation {
 	top: 9px;
 }
 a.global_link-facebook {
-	background-image: url(|IMAGESRC|/footer-facebook-mobile.png);
+	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
 	display: block;
 	width: 10px;
 	height: 19px;
@@ -1894,7 +1894,7 @@ a.global_link-facebook {
 	margin: 0 10px 0 0;
 }
 a.global_link-twitter {
-	background-image: url(|IMAGESRC|/footer-twitter-mobile.png);
+	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
 	display: block;
 	width: 16px;
 	height: 19px;
@@ -1904,7 +1904,7 @@ a.global_link-twitter {
 	margin: 0 10px 0 0;
 }
 a.global_link-mail {
-	background-image: url(|IMAGESRC|/footer-mail-mobile.png);
+	background-image: url(|IMAGESRC|/footer-mail-gray.png);
 	display: block;
 	width: 18px;
 	height: 19px;
@@ -1914,7 +1914,7 @@ a.global_link-mail {
 	margin: 0 10px 0 10px;
 }
 a.global_link-ios {
-	background-image: url(|IMAGESRC|/footer-ios-mobile.png);
+	background-image: url(|IMAGESRC|/footer-ios-gray.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -1924,7 +1924,7 @@ a.global_link-ios {
 	margin: 0 10px 0 20px;
 }
 a.global_link-android {
-	background-image: url(|IMAGESRC|/footer-android-mobile.png);
+	background-image: url(|IMAGESRC|/footer-android-gray.png);
 	display: block;
 	width: 15px;
 	height: 19px;
