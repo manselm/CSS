@@ -390,12 +390,12 @@ div.app_download-first {
 	margin-right: 30px;
 }
 .app_button-blue {
-	background: -webkit-linear-gradient(left, #1f1859, #232095); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, #1f1859, #232095); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, #1f1859, #232095); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #1f1859, #232095); /* Standard syntax */
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f1859', endColorstr='#232095');
-	background-color: #1f1859;
+	background: -webkit-linear-gradient(left, #1A1E5A, #122D98); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #1A1E5A, #122D98); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #1A1E5A, #122D98); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #1A1E5A, #122D98); /* Standard syntax */
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A1E5A', endColorstr='#122D98');
+	background-color: #1A1E5A;
 	-webkit-border-top-left-radius: 3px;
 	-moz-border-radius-topleft: 3px;
 	border-top-left-radius: 3px;
