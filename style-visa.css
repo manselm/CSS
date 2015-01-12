@@ -1052,11 +1052,11 @@ a.merchantLink {
 	width: 964px;
 	height: 40px;
 	padding: 20px 0 0 60px;
-	background-color: #efcd30;
-	background: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
+	background-color: #F4CA12;
+	background: -webkit-linear-gradient(left, #FA9B00, #F4CA12); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #FA9B00, #F4CA12); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #FA9B00, #F4CA12); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #FA9B00, #F4CA12); /* Standard syntax */
 }
 .learningcenter_goto label {
 	float: left;
