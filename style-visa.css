@@ -1125,7 +1125,7 @@ a.merchantLink {
 .learningcenter_articles .accordion_article_id h4 {
 	padding: 0 0 0 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .learningcenter_articles .accordion_article_content {
 	float: left;
@@ -2607,8 +2607,8 @@ p.merchantOfferDesc {
 .learningcenter_articles .accordion_list {
 	float: left;
 	width: 320px;
-	border-top: 10px solid #ffb300;
-	border-bottom: 10px solid #ffb300;
+	border-top: 10px solid #F7B600;
+	border-bottom: 10px solid #F7B600;
 	margin: 0 0 40px 0;
 }
 .learningcenter_articles .accordion_cat {
