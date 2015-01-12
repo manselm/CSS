@@ -1223,8 +1223,9 @@ a.signInLink {
 	background: #ffffff;
 }
 .global_merchant_id img {
-	float: right;
+	xfloat: right;
 	padding: 0 20px 0 0;
+	text-align:center;
 }
 .global_offer {
 	display: block;
