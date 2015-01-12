@@ -1437,7 +1437,7 @@ p.enroll_gradiant_legal {
 }
 .enroll_download_apps_content h2 {
 	font: normal 18px/24px myriadregular, arial, sans-serif;
-	color: #f7b600;
+	color: #5c5c5c;
 }
 .enroll_download_apps_content p {
 	width: 500px;
@@ -2651,7 +2651,7 @@ a.signInLink {
 	width: 310px;
 	margin: 10px 10px 0 0;
 	padding: 20px 0 10px 10px;
-	background-color: #ffb300;
+	background-color: #FFF;
 }
 .enroll_gradiant_mobile h1 {
 	font: normal 18px/22px myriadregular, arial, sans-serif;
