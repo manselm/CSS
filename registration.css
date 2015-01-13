@@ -115,16 +115,28 @@ h1.global_logo a {
 	height: 153px;
 }
 div.global_search {
-	padding: 23px 62px 0 0;
-	font-size: 14px;
-	line-height: 16px;
+        padding: 23px 62px 0 0;
+        font-size: 14px;
+        line-height: 16px;
 }
+
 div.global_search input {
 	height: 38px;
 	width: 220px;
 	background: url(|IMAGESRC|/bkh_search_field.gif) no-repeat;
 	border: none;
 	padding: 0 0 0 20px;
+}
+div.global_search button.nav-search {
+	position: absolute;
+	top: 37px;
+	left: 215px;
+	height: 36px;
+	width: 40px;
+	background: url(|IMAGESRC|/bkh_search_field_button.gif) no-repeat;
+	border: none;
+	padding: 0px;
+	cursor: pointer;
 }
 .global_search_icon {
 	display: none;
@@ -1437,7 +1449,7 @@ p.enroll_gradiant_legal {
 }
 .enroll_download_apps_content h2 {
 	font: normal 18px/24px myriadregular, arial, sans-serif;
-	color: #5c5c5c;
+	color: #f7b600;
 }
 .enroll_download_apps_content p {
 	width: 500px;
@@ -1664,6 +1676,7 @@ h1.global_logo {
 	background: #75787b;
 }
 .global_mobile_menu ul li.search {
+	position: relative;
 	width: 250px;
 	height: 31px;
 	padding: 15px;
@@ -1675,6 +1688,17 @@ h1.global_logo {
 	border: none;
 	margin: 0 0 0 10px;
 	padding: 0 0 0 10px;
+}
+.global_mobile_menu ul li.search button.nav-search {
+	position: absolute;
+	top: 15px;
+	left: 190px;
+	height: 36px;
+	width: 40px;
+	background: url(|IMAGESRC|/bkh_search_field_mobile_button.gif) no-repeat;
+	border: none;
+	padding: 0px;
+	cursor: pointer;
 }
 .global_mobile_menu ul li a {
 	display: inline-block;
@@ -2651,7 +2675,7 @@ a.signInLink {
 	width: 310px;
 	margin: 10px 10px 0 0;
 	padding: 20px 0 10px 10px;
-	background-color: #FFF;
+	background-color: #ffb300;
 }
 .enroll_gradiant_mobile h1 {
 	font: normal 18px/22px myriadregular, arial, sans-serif;
@@ -2698,9 +2722,9 @@ p.enroll_gradiant_legal {
 	left: 0px;
 	text-align: center;
 }
-.enroll_sidebar h1 {
+/*.enroll_sidebar h1 {
 	display: none;
-}
+}*/
 .enroll_form {
 	position: relative;
 	top: 0px;
