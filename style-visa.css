@@ -577,14 +577,26 @@ p.dis_calculator {
 	border: 1px solid #dedddd;
 	cursor: pointer;
 	background: #ffffff;
+	text-align: center;
 }
+
+.merchant_id .center {
+    display: table;
+    width: 100%;
+    height: 100px; /* for demo only */
+}
+.merchant_id .center .v-align {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .merchant_id img {
-	margin: 10px 0 0 25px;
+	margin: 10px 0px;
 }
 .merchant_id p {
-	float: left;
-	text-align: center;
-	margin: 0 0 0 80px;
+	xfloat: left;
+	xmargin: 0 0 0 80px;
 	font: normal 13px/15px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
