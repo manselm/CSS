@@ -781,7 +781,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -969,7 +969,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -1320,7 +1320,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 40px 0 40px 0;
@@ -2369,7 +2369,7 @@ p.merchantOfferDesc {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 20px 0;
@@ -2417,8 +2417,8 @@ p.merchantOfferDesc {
 	float: left;
 	display: inline-block;
 	width: 158px;
-	height: 94px;
-	padding: 5px 0px;
+	height: 119px;
+	xpadding: 5px 0px;
 	border: 1px solid #dedddd;
 	text-decoration: none;
 	background: #ffffff;
@@ -2896,7 +2896,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 10px 0 40px 0;
