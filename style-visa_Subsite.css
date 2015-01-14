@@ -2418,18 +2418,13 @@ p.merchantOfferDesc {
 	display: inline-block;
 	width: 158px;
 	height: 94px;
-	padding: 5px 0px;
+	padding: 10px 0 15px 0;
 	border: 1px solid #dedddd;
 	text-decoration: none;
 	background: #ffffff;
 }
-
-.page .center {
-	height:75px;		
-}
-
 .page a img {
-	width: 100px;
+	width: 158px;
 }
 .page p {
 	text-align: center;
