@@ -2263,6 +2263,17 @@ p.merchantOfferDesc {
 	height: 90%;
 	margin: 0px 0 10px 20px;
 }
+
+.merchant_id .center {
+	height:80px;	
+	width:100px;
+	float:left;
+}
+
+.merchant_id .center .v-align {
+	text-align:left;	
+}
+
 .merchant_id p {
 	float: left;
 	margin: 10px 0 0 15px;
