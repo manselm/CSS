@@ -781,7 +781,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -969,7 +969,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -1320,7 +1320,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 40px 0 40px 0;
@@ -1722,6 +1722,25 @@ p.enroll_gradiant_legal {
 	padding: 20px 0;
 	background: #f0efef;
 }
+
+/* Subsite Buttons */
+
+#subsite .app_button-blue {
+	background:none;
+	background-color:#25408e /*COLOR1*/;	
+}
+
+#subsite .global_mobile_menu ul li a:hover {
+	background:#25408e /*COLOR1*/;	
+}
+
+#subsite .home_merchants,
+#subsite .how_faqs,
+#subsite .myaccount_info,
+#subsite .home_viewalldiscounts {
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
 /********************************************************************************************************
@@ -2380,7 +2399,7 @@ p.merchantOfferDesc {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 20px 0;
@@ -2452,7 +2471,7 @@ p.merchantOfferDesc {
 	width: 245px;
 	height: 30px;
 	padding: 50px 0 50px 75px;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-bottom: 2px solid #dedddd;
 }
 .shared_eligible {
@@ -2907,7 +2926,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 10px 0 40px 0;
@@ -3141,6 +3160,14 @@ p.enroll_gradiant_legal {
 .global_mobile_only {
 	display: inline-block;
 }
+
+#subsite .home_merchants,
+#subsite .how_faqs,
+#subsite .myaccount_info,
+#subsite .home_viewalldiscounts {
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
 }
 
 /*----------Desktop screens----------*/

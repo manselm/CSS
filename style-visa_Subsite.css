@@ -432,6 +432,14 @@ div.app_download-first {
 	text-decoration: none;
 	text-align: center;
 }
+
+/* Subsite Buttons */
+
+.app_button-blue {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;	
+}
+
 .app_button-blue-margin {
 	margin-top: 17px;
 	margin-bottom: 20px;
@@ -781,7 +789,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -969,7 +977,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -1320,7 +1328,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 40px 0 40px 0;
@@ -1833,6 +1841,13 @@ h1.global_logo a {
 .global_mobile_menu ul li a:hover {
 	background: #1A1E5A;
 }
+
+/* Subsite Nav Hover */
+
+.global_mobile_menu ul li a:hover {
+	background:|COLOR1| /*COLOR1*/;	
+}
+
 .global_mobile_menu ul li.lastrow {
 	border-bottom: 1px solid #969a9d;
 }
@@ -2263,6 +2278,17 @@ p.merchantOfferDesc {
 	height: 90%;
 	margin: 0px 0 10px 20px;
 }
+
+.merchant_id .center {
+	height:80px;	
+	width:100px;
+	float:left;
+}
+
+.merchant_id .center .v-align {
+	text-align:left;	
+}
+
 .merchant_id p {
 	float: left;
 	margin: 10px 0 0 15px;
@@ -2417,14 +2443,19 @@ p.merchantOfferDesc {
 	float: left;
 	display: inline-block;
 	width: 158px;
-	height: 94px;
-	padding: 10px 0 15px 0;
+	height: 119px;
+	xpadding: 5px 0px;
 	border: 1px solid #dedddd;
 	text-decoration: none;
 	background: #ffffff;
 }
+
+.page .center {
+	height:75px;		
+}
+
 .page a img {
-	width: 158px;
+	width: 100px;
 }
 .page p {
 	text-align: center;
@@ -2891,7 +2922,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 10px 0 40px 0;
