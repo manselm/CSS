@@ -1472,6 +1472,16 @@ p.enroll_gradiant_legal {
 	display: inline-block;
 }
 
+/* Subsites */
+
+#subsites .enroll_download_apps_content h1 {
+	color:#25408e /*COLOR1*/;	
+}
+
+#subsites .enroll_download_apps_content h1 {
+	color:#25408e /*COLOR1*/;		
+}
+
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
 /********************************************************************************************************/

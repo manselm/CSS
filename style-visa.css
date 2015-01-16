@@ -3170,6 +3170,11 @@ p.enroll_gradiant_legal {
 
 /* Subsites */
 
+#subsite .app_button-blue {
+	background:none;
+	background-color:#25408e /*COLOR1*/;	;	
+}
+
 #subsite .home_merchants,
 #subsite .how_faqs,
 #subsite .myaccount_info,
