@@ -178,7 +178,7 @@ ul.global_navigation li a {
 	display: inline-block;
 	text-decoration: none;
 	font: lighter 18px/ 24px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 ul.global_navigation li a.current {
 	border-bottom: solid 8px #f7b600;
@@ -1449,7 +1449,7 @@ p.enroll_gradiant_legal {
 }
 .enroll_download_apps_content h2 {
 	font: normal 18px/24px myriadregular, arial, sans-serif;
-	color: #f7b600;
+	color: #5c5c5c;
 }
 .enroll_download_apps_content p {
 	width: 500px;
@@ -1474,13 +1474,10 @@ p.enroll_gradiant_legal {
 
 /* Subsites */
 
-#subsites .enroll_download_apps_content h1 {
-	color:#25408e /*COLOR1*/;	
+#subsite .enroll_download_apps_content h1 {
+	color:|COLOR1| /*COLOR1*/;	
 }
 
-#subsites .enroll_download_apps_content h1 {
-	color:#25408e /*COLOR1*/;		
-}
 
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
@@ -2785,7 +2782,7 @@ p.enroll_gradiant_legal {
 	width: 290px;
 	margin: 15px 0;
 	font: lighter 14px/16px myriadlight, arial, sans-serif;
-	color: #75787b;
+	color: #5c5c5c;
 }
 .enroll_download_apps_content p.legal {
 	margin: 15px 0 0 0;
@@ -2803,6 +2800,16 @@ p.enroll_gradiant_legal {
 .enroll_download_apps_content a {
 	width: 140px;
 }
+/* Subsites */
+
+#subsite .enroll_download_apps_content h1 {
+	color:|COLOR1| /*COLOR1*/;	
+}
+
+#subsite .enroll_gradiant_mobile {
+	background-color:#d8dadc;
+}
+
 }
 
 /*----------Desktop screens----------*/

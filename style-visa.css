@@ -1723,22 +1723,58 @@ p.enroll_gradiant_legal {
 	background: #f0efef;
 }
 
+/* Footer Pages */
+
+#printControls {
+	position:absolute;
+	right:5%;
+	top:.5%;
+}
+
+#printControls ul li {
+	display:inline-block;	
+}
+
+#printControls ul li a {
+	color:#75787b;
+	text-decoration:none;	
+}
+
+#printControls ul li.printIcon {
+	border-right:1px solid #75787b;	
+	padding:0px 10px 0px 30px;
+	margin-right:10px;
+	background:url(|IMAGESRC|/printer_icon.png) top left no-repeat;
+}
+
+#terms_container h3 {
+	padding: 0 0 10px 0;
+	font: lighter 22px/26px myriadlight, arial, sans-serif;
+	xcolor: #1a1f71;	
+}
+
+#terms_container a.back {
+	color:#75787b;	
+	margin-bottom:20px;
+	display:block;
+}
+
 /* Subsites */
 
 #subsite .app_button-blue {
 	background:none;
-	background-color:#25408e /*COLOR1*/;	
+	background-color:|COLOR1| /*COLOR1*/;	
 }
 
 ul.global_navigation li a.current {
-	border-bottom: solid 8px #25408e /*COLOR1*/;
+	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
 }
 ul.global_navigation li a:hover {
-	border-bottom: solid 8px #25408e /*COLOR1*/;
+	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
 }
 
 #subsite .global_mobile_menu ul li a:hover {
-	background:#25408e /*COLOR1*/;	
+	background:|COLOR1| /*COLOR1*/;	
 }
 
 #subsite .home_merchants,
@@ -3172,7 +3208,7 @@ p.enroll_gradiant_legal {
 
 #subsite .app_button-blue {
 	background:none;
-	background-color:#25408e /*COLOR1*/;	;	
+	background-color:|COLOR1| /*COLOR1*/;	;	
 }
 
 #subsite .home_merchants,
