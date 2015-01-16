@@ -1723,11 +1723,18 @@ p.enroll_gradiant_legal {
 	background: #f0efef;
 }
 
-/* Subsite Buttons */
+/* Subsites */
 
 #subsite .app_button-blue {
 	background:none;
 	background-color:#25408e /*COLOR1*/;	
+}
+
+ul.global_navigation li a.current {
+	border-bottom: solid 8px #25408e /*COLOR1*/;
+}
+ul.global_navigation li a:hover {
+	border-bottom: solid 8px #25408e /*COLOR1*/;
 }
 
 #subsite .global_mobile_menu ul li a:hover {
