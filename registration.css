@@ -1019,7 +1019,7 @@ p.merchantOfferTC {
 .learningcenter_articles .accordion_article_id h4 {
 	padding: 0 0 0 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .learningcenter_articles .accordion_article_content {
 	float: left;
@@ -2453,7 +2453,7 @@ div.app_download-first {
 	padding: 0;
 	width: 240px;
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .learningcenter_articles .accordion_article_content {
 	float: left;
