@@ -2802,6 +2802,13 @@ p.enroll_gradiant_legal {
 }
 /* Subsites */
 
+#subsite ul.global_navigation li a.current {
+	border-bottom: solid 8px |COLOR1|;
+}
+#subsite ul.global_navigation li a:hover {
+	border-bottom: solid 8px |COLOR1|;
+}
+
 #subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/;	
 }
