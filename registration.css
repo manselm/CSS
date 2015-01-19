@@ -1478,6 +1478,17 @@ p.enroll_gradiant_legal {
 	color:|COLOR1| /*COLOR1*/;	
 }
 
+#subsite ul.global_navigation li a.current {
+	border-bottom: solid 8px |COLOR1|;
+}
+#subsite ul.global_navigation li a:hover {
+	border-bottom: solid 8px |COLOR1|;
+}
+
+#subsitediv.global_search a {
+	color:|COLOR1| /*COLOR1*/;		
+}
+
 
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
@@ -2815,6 +2826,10 @@ p.enroll_gradiant_legal {
 
 #subsite .enroll_gradiant_mobile {
 	background-color:#d8dadc;
+}
+
+#subsitediv.global_search a {
+	color:|COLOR1| /*COLOR1*/;		
 }
 
 }
