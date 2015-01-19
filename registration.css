@@ -115,6 +115,7 @@ h1.global_logo a {
 	height: 153px;
 }
 div.global_search {
+		position: relative;
         padding: 23px 62px 0 0;
         font-size: 14px;
         line-height: 16px;
@@ -1485,8 +1486,13 @@ p.enroll_gradiant_legal {
 	border-bottom: solid 8px |COLOR1|;
 }
 
-#subsitediv.global_search a {
+#subsite div.global_search a {
 	color:|COLOR1| /*COLOR1*/;		
+}
+
+#subsite .learningcenter_goto {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;		
 }
 
 
@@ -2845,7 +2851,7 @@ p.enroll_gradiant_legal {
 	display: none;
 }
 
-#search_form {
+#search_form, #desktop_search_form, #mobile_search_form {
     display: inline-block;
 }
 }
