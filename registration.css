@@ -725,7 +725,7 @@ p.merchantOfferTC {
 }
 .home_business_savings h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .home_business_savings p {
 	width: 550px;
@@ -2225,7 +2225,7 @@ div.app_download-first {
 .home_business_savings h1 {
 	width: 100%;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .home_business_savings p {
 	width: 300px;
@@ -2693,7 +2693,7 @@ a.signInLink {
 	width: 310px;
 	margin: 10px 10px 0 0;
 	padding: 20px 0 10px 10px;
-	background-color: #ffb300;
+	background-color: #FFF;
 }
 .enroll_gradiant_mobile h1 {
 	font: normal 18px/22px myriadregular, arial, sans-serif;
@@ -2822,10 +2822,6 @@ p.enroll_gradiant_legal {
 
 #subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/;	
-}
-
-#subsite .enroll_gradiant_mobile {
-	background-color:#d8dadc;
 }
 
 #subsitediv.global_search a {
