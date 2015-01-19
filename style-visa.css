@@ -1804,6 +1804,15 @@ ul.global_navigation li a:hover {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
 }
 
+#subsite .learningcenter_goto {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;		
+}
+
+#subsite .learningcenter_articles .accordion_article_id h3 {
+	color:|COLOR1| /*COLOR1*/;		
+}
+
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
 /********************************************************************************************************

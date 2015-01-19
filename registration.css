@@ -1495,6 +1495,10 @@ p.enroll_gradiant_legal {
 	background-color:|COLOR1| /*COLOR1*/;		
 }
 
+#subsite .learningcenter_articles .accordion_article_id h3 {
+	color:|COLOR1| /*COLOR1*/;		
+}
+
 
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
