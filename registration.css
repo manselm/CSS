@@ -2824,7 +2824,16 @@ p.enroll_gradiant_legal {
 	color:|COLOR1| /*COLOR1*/;	
 }
 
-#subsitediv.global_search a {
+#subsite div.global_search a {
+	color:|COLOR1| /*COLOR1*/;		
+}
+
+#subsite .learningcenter_articles .accordion_list {
+	border-bottom: 10px solid |COLOR1| /*COLOR1*/;
+    border-top: 10px solid |COLOR1| /*COLOR1*/;	
+}
+
+#subsite .learningcenter_articles .accordion_cat_header h2 {
 	color:|COLOR1| /*COLOR1*/;		
 }
 

@@ -3228,7 +3228,7 @@ p.enroll_gradiant_legal {
 
 #subsite .app_button-blue {
 	background:none;
-	background-color:|COLOR1| /*COLOR1*/;	;	
+	background-color:|COLOR1| /*COLOR1*/;
 }
 
 #subsite .home_merchants,
@@ -3236,6 +3236,10 @@ p.enroll_gradiant_legal {
 #subsite .myaccount_info,
 #subsite .home_viewalldiscounts {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
+#subsite .learningcenter_articles .accordion_cat_header h2 {
+	color:|COLOR1| /*COLOR1*/	
 }
 
 }
