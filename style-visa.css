@@ -1750,7 +1750,7 @@ p.enroll_gradiant_legal {
 	border-right:1px solid #75787b;	
 	padding:0px 10px 0px 30px;
 	margin-right:10px;
-	background:url(|IMAGESRC|/printer_icon.png) top left no-repeat;
+	background:url(|COMMONSRC|/printer_icon.png) top left no-repeat;
 }
 
 #terms_container h3 {
@@ -2768,7 +2768,7 @@ p.merchantOfferDesc {
 	min-height: 40px;
 	line-height: 40px;
 	height: auto;
-	background: url(|IMAGESRC|/bkg_merchant.gif) -4px -20px no-repeat;
+	background: url(|IMAGESRC|/bkg_merchant.gif) 0px -20px no-repeat;
 	margin: 0;
 	padding: 10px 0 0 15px;
 	border-bottom: 1px solid #dedddd;
