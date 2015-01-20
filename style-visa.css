@@ -1781,15 +1781,9 @@ p.enroll_gradiant_legal {
 	top:7px;
 }
 
-#subsite .app_button-blue {
-	background:none;
-	background-color:|COLOR1| /*COLOR1*/;	
-}
-
-#subsite ul.global_navigation li a.current {
-	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
-}
-#subsite ul.global_navigation li a:hover {
+#subsite ul.global_navigation li a.current,
+#subsite ul.global_navigation li a:hover,
+#subsite .merchant_catagory {
 	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
 }
 
@@ -1799,12 +1793,13 @@ p.enroll_gradiant_legal {
 
 #subsite .home_merchants,
 #subsite .how_faqs,
-#subsite .myaccount_info,
 #subsite .home_viewalldiscounts {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
 }
 
-#subsite .learningcenter_goto {
+#subsite .learningcenter_goto,
+#subsite .dis_merchant_sortby,
+#subsite .app_button-blue {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;		
 }
@@ -1812,6 +1807,7 @@ p.enroll_gradiant_legal {
 #subsite .learningcenter_articles .accordion_article_id h3 {
 	color:|COLOR1| /*COLOR1*/;		
 }
+
 
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
