@@ -1804,8 +1804,14 @@ p.enroll_gradiant_legal {
 	background-color:|COLOR1| /*COLOR1*/;		
 }
 
-#subsite .learningcenter_articles .accordion_article_id h3 {
+#subsite .learningcenter_articles .accordion_article_id h3,
+#subsite .merchantOffer,
+#subsite .merchantName_mobile span {
 	color:|COLOR1| /*COLOR1*/;		
+}
+
+#subsite .signin_feat_discount_header {
+	background-color:|COLOR1| /*COLOR1*/;
 }
 
 
@@ -3243,7 +3249,9 @@ p.enroll_gradiant_legal {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
 }
 
-#subsite .learningcenter_articles .accordion_cat_header h2 {
+#subsite .learningcenter_articles .accordion_cat_header h2,
+#subsite .merchantOffer,
+#subsite .merchantName_mobile span {
 	color:|COLOR1| /*COLOR1*/	
 }
 
