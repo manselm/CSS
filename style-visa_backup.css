@@ -67,7 +67,7 @@ h1.global_logo {
 	font-size: 32px;
 	color: #232096;
 	font-weight: bold;
-	padding: 32px 0 0 62px;
+	padding: 20px 0 0 62px;
 }
 
 h1.global_logo a {
@@ -144,7 +144,7 @@ div.global_search button.nav-search {
 	left: 215px;
 	height: 36px;
 	width: 40px;
-	background: url(../images/bkh_search_field_button.gif) no-repeat;
+	background: url(|IMAGESRC|/bkh_search_field_button.gif) no-repeat;
 	border: none;
 	padding: 0px;
 	cursor: pointer;
@@ -1722,6 +1722,82 @@ p.enroll_gradiant_legal {
 	padding: 20px 0;
 	background: #f0efef;
 }
+
+/* Footer Pages */
+
+#printControls {
+	position:absolute;
+	right:5%;
+	top:.5%;
+}
+
+#printControls ul li {
+	display:inline-block;	
+}
+
+#printControls ul li a {
+	color:#75787b;
+	text-decoration:none;	
+}
+
+#printControls ul li.printIcon {
+	border-right:1px solid #75787b;	
+	padding:0px 10px 0px 30px;
+	margin-right:10px;
+	background:url(|COMMONSRC|/printer_icon.png) top left no-repeat;
+}
+
+#terms_container h3 {
+	padding: 0 0 10px 0;
+	font: lighter 22px/26px myriadlight, arial, sans-serif;
+	xcolor: #1a1f71;	
+}
+
+#terms_container a.back {
+	color:#75787b;	
+	margin-bottom:20px;
+	display:block;
+}
+
+/* Subsites */
+
+#subsite .global_header h1 a {
+	padding-right:10px;
+	display:inline-block;
+}
+
+#subsite .global_header h1 img {
+	border-left:2px solid #d8dadc;
+	display:inline-block;
+	padding-left:10px;
+	max-height:50px;
+	position:relative;
+	top:7px;
+}
+
+#subsite .app_button-blue {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;	
+}
+
+ul.global_navigation li a.current {
+	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
+}
+ul.global_navigation li a:hover {
+	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
+}
+
+#subsite .global_mobile_menu ul li a:hover {
+	background:|COLOR1| /*COLOR1*/;	
+}
+
+#subsite .home_merchants,
+#subsite .how_faqs,
+#subsite .myaccount_info,
+#subsite .home_viewalldiscounts {
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
 /********************************************************************************************************
@@ -2263,6 +2339,14 @@ p.merchantOfferDesc {
 	height: 90%;
 	margin: 0px 0 10px 20px;
 }
+.merchant_id .center {
+	height:80px;	
+	width:100px;
+	float:left;
+}
+.merchant_id .center .v-align {
+	text-align:left;	
+}
 .merchant_id p {
 	float: left;
 	margin: 10px 0 0 15px;
@@ -2417,14 +2501,17 @@ p.merchantOfferDesc {
 	float: left;
 	display: inline-block;
 	width: 158px;
-	height: 94px;
-	padding: 10px 0 15px 0;
+	height: 119px;
+	xpadding: 5px 0px;
 	border: 1px solid #dedddd;
 	text-decoration: none;
 	background: #ffffff;
 }
+.page .center {
+	height:75px;		
+}
 .page a img {
-	width: 158px;
+	width: 100px;
 }
 .page p {
 	text-align: center;
@@ -2670,7 +2757,7 @@ p.merchantOfferDesc {
 	min-height: 40px;
 	line-height: 40px;
 	height: auto;
-	background: url(|IMAGESRC|/bkg_merchant.gif) -4px -20px no-repeat;
+	background: url(|IMAGESRC|/bkg_merchant.gif) 0px -20px no-repeat;
 	margin: 0;
 	padding: 10px 0 0 15px;
 	border-bottom: 1px solid #dedddd;
@@ -3063,6 +3150,7 @@ p.enroll_gradiant_legal {
 	padding: 20px 0 20px 10px;
 	text-align: left;
 }
+
 .transaction_history {
 	width: 300px;
 	border-bottom: solid 2px #969a9d;
@@ -3125,6 +3213,22 @@ p.enroll_gradiant_legal {
 .global_mobile_only {
 	display: inline-block;
 }
+
+
+/* Subsites */
+
+#subsite .app_button-blue {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;	;	
+}
+
+#subsite .home_merchants,
+#subsite .how_faqs,
+#subsite .myaccount_info,
+#subsite .home_viewalldiscounts {
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
 }
 
 /*----------Desktop screens----------*/
@@ -3134,7 +3238,7 @@ p.enroll_gradiant_legal {
 }
 }
 
-#search_form {
+#search_form, #desktop_search_form, #mobile_search_form {
     display: inline-block;
 }
 
