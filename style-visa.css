@@ -1787,10 +1787,6 @@ p.enroll_gradiant_legal {
 	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
 }
 
-#subsite .global_mobile_menu ul li a:hover {
-	background:|COLOR1| /*COLOR1*/;	
-}
-
 #subsite .home_merchants,
 #subsite .how_faqs,
 #subsite .home_viewalldiscounts {
@@ -1806,7 +1802,8 @@ p.enroll_gradiant_legal {
 
 #subsite .learningcenter_articles .accordion_article_id h3,
 #subsite .merchantOffer,
-#subsite .merchantName_mobile span {
+#subsite .merchantName_mobile span,
+#subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/;		
 }
 
@@ -3251,12 +3248,17 @@ p.enroll_gradiant_legal {
 
 #subsite .learningcenter_articles .accordion_cat_header h2,
 #subsite .merchantOffer,
-#subsite .merchantName_mobile span {
+#subsite .merchantName_mobile span,
+#subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/	
 }
 
 #subsite .signin_feat_discount_header {
 	background-color:|COLOR1| /*COLOR1*/;
+}
+
+#subsite .global_mobile_menu ul li a:hover {
+	background:|COLOR1| /*COLOR1*/;	
 }
 
 }
