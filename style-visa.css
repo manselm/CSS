@@ -1786,10 +1786,10 @@ p.enroll_gradiant_legal {
 	background-color:|COLOR1| /*COLOR1*/;	
 }
 
-ul.global_navigation li a.current {
+#subsite ul.global_navigation li a.current {
 	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
 }
-ul.global_navigation li a:hover {
+#subsite ul.global_navigation li a:hover {
 	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
 }
 
