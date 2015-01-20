@@ -2998,7 +2998,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
+	background: none;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 10px 0 40px 0;
