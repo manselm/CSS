@@ -506,10 +506,10 @@ p.dis_calculator {
 	height: 40px;
 	padding: 20px 0 0 60px;
 	background-color: #efcd30;
-	background: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
+	background: -webkit-linear-gradient(left, #FA9B00, #F4CA12); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #FA9B00, #F4CA12); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #FA9B00, #F4CA12); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #FA9B00, #F4CA12); /* Standard syntax */
 }
 .dis_merchant_sortby h1 {
 	float: left;
@@ -686,7 +686,7 @@ p.merchantOfferTC {
 }
 .shared_video h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .shared_video p {
 	width: 500px;
@@ -824,7 +824,7 @@ p.merchantOfferTC {
 }
 .how_video h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .how_video p {
 	width: 500px;
@@ -1137,7 +1137,7 @@ a.signInLink {
 }
 .global_offer .merchantName {
 	font: lighter 18px/24px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 	text-decoration: none;
 }
 .merchantOffer {
@@ -1162,7 +1162,7 @@ a.signInLink {
 }
 .signin_download_apps_content h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .signin_download_apps_content h2 {
 	font: normal 18px/24px myriadregular, arial, sans-serif;
@@ -1192,7 +1192,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 40px 0 40px 0;
@@ -1240,11 +1240,11 @@ a.signInLink {
 	max-width: 964px;
 	margin: 60px 0 0 0;
 	padding: 40px 0 2% 5.8%;
-	background-color: #d8dadc;
-	xbackground: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
-	xbackground: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
-	xbackground: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
-	xbackground: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
+	background-color: #F7B600;
+	background: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
 }
 .enroll_gradiant_mobile {
 	display: none;
@@ -1474,6 +1474,11 @@ p.enroll_gradiant_legal {
 }
 
 /* Subsites */
+
+#subsite .enroll_gradiant {
+	background:none;
+	background-color:#d8dadc;	
+}
 
 #subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/;	
@@ -1817,7 +1822,7 @@ ul.global_navigation {
 	top: 9px;
 }
 a.global_link-facebook {
-	background-image: url(|IMAGESRC|/footer-facebook-mobile.png);
+	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
 	display: block;
 	width: 10px;
 	height: 19px;
@@ -1827,7 +1832,7 @@ a.global_link-facebook {
 	margin: 0 10px 0 0;
 }
 a.global_link-twitter {
-	background-image: url(|IMAGESRC|/footer-twitter-mobile.png);
+	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
 	display: block;
 	width: 16px;
 	height: 19px;
@@ -1837,7 +1842,7 @@ a.global_link-twitter {
 	margin: 0 10px 0 0;
 }
 a.global_link-mail {
-	background-image: url(|IMAGESRC|/footer-mail-mobile.png);
+	background-image: url(|IMAGESRC|/footer-mail-gray.png);
 	display: block;
 	width: 18px;
 	height: 19px;
@@ -1847,7 +1852,7 @@ a.global_link-mail {
 	margin: 0 10px 0 10px;
 }
 a.global_link-ios {
-	background-image: url(|IMAGESRC|/footer-ios-mobile.png);
+	background-image: url(|IMAGESRC|/footer-ios-gray.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -1857,7 +1862,7 @@ a.global_link-ios {
 	margin: 0 10px 0 20px;
 }
 a.global_link-android {
-	background-image: url(|IMAGESRC|/footer-android-mobile.png);
+	background-image: url(|IMAGESRC|/footer-android-gray.png);
 	display: block;
 	width: 15px;
 	height: 19px;

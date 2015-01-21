@@ -766,7 +766,7 @@ a.merchantLink {
 .home_business_savings h1 {
 	padding: 0 0 10px 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .home_business_savings p {
 	width: 550px;
@@ -835,6 +835,10 @@ a.merchantLink {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+.page .center .v-align img {
+	max-width:170px;
+	height:80px;	
 }
 .page a {
 	float: left;
@@ -1775,27 +1779,34 @@ p.enroll_gradiant_legal {
 	top:7px;
 }
 
-#subsite .app_button-blue {
-	background:none;
-	background-color:|COLOR1| /*COLOR1*/;	
-}
-
-ul.global_navigation li a.current {
+#subsite ul.global_navigation li a.current,
+#subsite ul.global_navigation li a:hover,
+#subsite .merchant_catagory {
 	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
-}
-ul.global_navigation li a:hover {
-	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
-}
-
-#subsite .global_mobile_menu ul li a:hover {
-	background:|COLOR1| /*COLOR1*/;	
 }
 
 #subsite .home_merchants,
 #subsite .how_faqs,
-#subsite .myaccount_info,
 #subsite .home_viewalldiscounts {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
+#subsite .learningcenter_goto,
+#subsite .dis_merchant_sortby,
+#subsite .app_button-blue {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;		
+}
+
+#subsite .learningcenter_articles .accordion_article_id h3,
+#subsite .merchantOffer,
+#subsite .merchantName_mobile span,
+#subsite .enroll_download_apps_content h1 {
+	color:|COLOR1| /*COLOR1*/;		
+}
+
+#subsite .signin_feat_discount_header {
+	background-color:|COLOR1| /*COLOR1*/;
 }
 
 /********************************************************************************************************/
@@ -2441,7 +2452,7 @@ p.merchantOfferDesc {
 .home_business_savings h1 {
 	width: 100%;
 	font: lighter 18px/22px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
 .home_business_savings p {
 	width: 300px;
@@ -2978,7 +2989,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
+	background: none;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 10px 0 40px 0;
@@ -3219,7 +3230,7 @@ p.enroll_gradiant_legal {
 
 #subsite .app_button-blue {
 	background:none;
-	background-color:|COLOR1| /*COLOR1*/;	;	
+	background-color:|COLOR1| /*COLOR1*/;	
 }
 
 #subsite .home_merchants,
@@ -3227,6 +3238,21 @@ p.enroll_gradiant_legal {
 #subsite .myaccount_info,
 #subsite .home_viewalldiscounts {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
+#subsite .learningcenter_articles .accordion_cat_header h2,
+#subsite .merchantOffer,
+#subsite .merchantName_mobile span,
+#subsite .enroll_download_apps_content h1 {
+	color:|COLOR1| /*COLOR1*/	
+}
+
+#subsite .signin_feat_discount_header {
+	background-color:|COLOR1| /*COLOR1*/;
+}
+
+#subsite .global_mobile_menu ul li a:hover {
+	background:|COLOR1| /*COLOR1*/;	
 }
 
 }

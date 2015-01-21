@@ -67,15 +67,13 @@ h1.global_logo {
 	font-size: 32px;
 	color: #232096;
 	font-weight: bold;
-	padding: 20px 0 0 62px;
+	padding: 32px 0 0 62px;
 }
 
 h1.global_logo a {
 	color: #232096;
 	text-decoration: none;
 }
-
-
 .global_flt {
 	float: left;
 }
@@ -87,12 +85,6 @@ h1.global_logo a {
 }
 .global_blue {
 	color: #1a1f71;
-}
-.global_bold {
-	font-weight: bold;
-}
-.global_underline {
-	text-decoration: underline;
 }
 /* TOP GRADIENT SECTION */
 .global_gradient-top {
@@ -112,9 +104,6 @@ h1.global_logo a {
 	width: 100%;
 	background: #ffffff;
 }
-.global_mobile_only {
-	display: none;
-}
 /* MAIN CONTENT SECTION */
 .global_content {
 	position: relative;
@@ -123,7 +112,7 @@ h1.global_logo a {
 }
 /* navigation subsection */
 .global_header {
-	height: 151px;
+	height: 153px;
 }
 div.global_search {
 	position: relative;
@@ -163,12 +152,10 @@ div.global_search ul {
 }
 div.global_search ul li {
 	display: inline;
-	border-right: 1px solid #1a1f71;
 	padding: 0 9px 0 9px;
 }
 div.global_search ul li:first-child {
 	padding-left: 0;
-	border-right: none;
 }
 div.global_search ul li:last-child {
 	border-right: none;
@@ -180,7 +167,7 @@ ul.global_navigation {
 	margin: 10px 0 0 0;
 	padding: 0 50px 0 60px;
 	background: #ffffff;
-//	border-bottom: solid 2px #dedddd;
+	border-bottom: solid 2px #dedddd;
 }
 ul.global_navigation li a {
 	float: left;
@@ -215,17 +202,15 @@ ul.global_navigation li a:hover {
 }
 .global_footer-left {
 	padding-top: 19px;
-	padding-left: 60px;
 }
 .global_footer-right {
 	padding-top: 14px;
-	padding-right: 50px;
 }
 .global_footer-right h6 {
 	display: inline;
 	position: relative;
 	top: 4px;
-	color: #75787b;
+	color: #d8dadc;
 	font-size: 12px;
 	font-weight: bold;
 }
@@ -392,12 +377,12 @@ div.app_feature h3 {
 	padding: 30px 0 20px 0;
 }
 div.app_download {
-	width: 190px;
+	width: 164px;
 	text-align: center;
 	padding: 0 0 70px 0;
 }
 div.app_download-first {
-	margin-left: 320px;
+	margin-left: 333px;
 	margin-right: 30px;
 }
 .app_button-blue {
@@ -406,7 +391,7 @@ div.app_download-first {
 	background: -moz-linear-gradient(right, #1A1E5A, #122D98); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #1A1E5A, #122D98); /* Standard syntax */
  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A1E5A', endColorstr='#122D98');
-	background-color: #1A1E5A;
+	background-color: #1f1859;
 	-webkit-border-top-left-radius: 3px;
 	-moz-border-radius-topleft: 3px;
 	border-top-left-radius: 3px;
@@ -437,12 +422,6 @@ div.app_download-first {
 	margin-bottom: 20px;
 }
 /*Discount Style Section*/
-.discount_slider {
-	display: block;
-}
-.discount_slider_mobile {
-	display: none;
-}
 .dis_calculator {
 	clear: both;
 	float: none;
@@ -521,9 +500,6 @@ p.dis_calculator {
 	font: bold 20px/18px myriadbold, arial, sans-serif;
 	color: #333333;
 }
-.total_savings_message {
-    font-size: .7em !important;
-}
 .dis_merchant_sortby {
 	width: 964px;
 	height: 40px;
@@ -542,7 +518,7 @@ p.dis_calculator {
 .dis_merchant_sortby label {
 	float: left;
 	width: 40px;
-	padding: 0px 10px 0 400px;
+	padding: 5px 0 0 400px;
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #1a1f71;
 }
@@ -588,24 +564,14 @@ p.dis_calculator {
 	border: 1px solid #dedddd;
 	cursor: pointer;
 	background: #ffffff;
-	text-align: center; 
-}
-.merchant_id .center {
-    display: table;
-    width: 100%;
-    height: 100px; /* for demo only */
-}
-.merchant_id .center .v-align {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
 }
 .merchant_id img {
-	margin: 10px 0px;
+	margin: 10px 0 0 25px;
 }
 .merchant_id p {
-	xfloat: left;
-	xmargin: 0 0 0 80px;
+	float: left;
+	text-align: center;
+	margin: 0 0 0 80px;
 	font: normal 13px/15px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
@@ -646,7 +612,7 @@ a.merchantLink {
 	cursor: pointer;
 	background: url(|IMAGESRC|/tc_arrowright.png) 130px 0px no-repeat;
 }
-.merchantOfferTC {
+p.merchantOfferTC {
 	display: none;
 	clear: both;
 	font: normal 12px/13px myriadregular, arial, sans-serif;
@@ -713,12 +679,6 @@ a.merchantLink {
 	text-decoration: none;
 }
 /*Home Style Section*/
-.home_slider {
-	display: block;
-}
-.home_slider_mobile {
-	display: none;
-}
 .shared_video {
 	position: relative;
 	margin: 60px 0 30px 60px;
@@ -749,7 +709,7 @@ a.merchantLink {
 .shared_eligible_image {
 	position: absolute;
 	top: 0px;
-	left: 571px;
+	left: 569px;
 }
 .home_business_savings {
 	display: block;
@@ -764,7 +724,6 @@ a.merchantLink {
 	margin: 0 0 100px 0;
 }
 .home_business_savings h1 {
-	padding: 0 0 10px 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
 	color: #5c5c5c;
 }
@@ -776,85 +735,6 @@ a.merchantLink {
 }
 .home_enroll a {
 	margin: 10px 0;
-}
-.home_merchants {
-	position: relative;
-	display: block;
-	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
-	border-top: 2px solid #dedddd;
-	border-bottom: 2px solid #dedddd;
-	margin: 0 0 40px 0;
-}
-.home_merchants_desc {
-	float: left;
-	width: 290px;
-	margin: 90px 0 0 60px;
-}
-.home_merchants_desc h1 {
-	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-.home_merchants_desc p {
-	width: 240px;
-	margin: 10px 0;
-	font: lighter 18px/22px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.home_merchants_logos {
-	width: 212px;
-	height: 119px;
-}
-.cycle-slideshow {
-	float: left;
-}
-.cycle-slideshow div.cycle-slide {
-	width: 670px;
-	height: 130px
-}
-#home_merchants_prev {
-	position: absolute;
-	top: 0px;
-	left: 318px;
-	z-index: 2000;
-}
-#home_merchants_next {
-	position: absolute;
-	top: 0px;
-	right: -2px;
-	z-index: 2000;
-}
-/* Center Logos */
-
-.page .center {
-    display: table;
-    width: 100%;
-    height: 100px; /* for demo only */
-}
-.page .center .v-align {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.page .center .v-align img {
-	max-width:170px;
-	max-height:80px;	
-}
-
-.page a {
-	float: left;
-	display: inline-block;
-	width: 211px;
-	height: 119px;
-	xpadding: 0px 0px 15px;
-	border: 1px solid #dedddd;
-	text-decoration: none;
-}
-.page p {
-	text-align: center;
-	font: normal 14px/14px myriadnormal, arial, sans-serif;
-	color: #75787b;
 }
 .home_steps_container {
 	position: absolute;
@@ -873,7 +753,6 @@ a.merchantLink {
 	width: 180px;
 	font: lighter 18px/24px myriadlight, arial, sans-serif;
 	color: #75787b;
-	margin: 0px;
 }
 .home_steps p.home_step_last {
 	width: 220px;
@@ -887,11 +766,10 @@ a.merchantLink {
 .shared_eligible {
 	clear: both;
 	position: relative;
-	border-top: solid 2px #dedddd;
 }
 .shared_eligible a.shared_eligible_link {
 	position: relative;
-	font: normal 12px/22px myriadregular, arial, sans-serif;
+	font: bold 12px/16px myriadregular, arial, sans-serif;
 	color: #75787b;
 }
 .shared_eligible input.shared_eligible_card_num {
@@ -975,7 +853,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -983,7 +861,7 @@ a.merchantLink {
 .accordion_desc {
 	float: left;
 	width: 290px;
-	margin: 20px 0 0 60px;
+	margin: 30px 0 0 60px;
 }
 .accordion_desc h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
@@ -1008,7 +886,6 @@ a.merchantLink {
 	height: 38px;
 	background: url(|IMAGESRC|/bkg_how_faqs_header.gif) 0px 0px no-repeat;
 	border-bottom: 4px solid #ffffff;
-	cursor: pointer;
 }
 .accordion_cat_header h2 {
 	padding: 9px 0 0 38px;
@@ -1022,8 +899,7 @@ a.merchantLink {
 	display: none;
 	height: 40px;
 	border-bottom: 1px solid #dedddd;
-	background: url(|IMAGESRC|/bkg_merchant.gif) 315px -20px no-repeat;
-	cursor: pointer;
+	background: url(|IMAGESRC|/bkg_merchant.gif) 285px -20px no-repeat;
 }
 .accordion_article_id h3 {
 	padding: 15px 0 0 38px;
@@ -1037,11 +913,6 @@ a.merchantLink {
 .accordion_article_content p {
 	padding: 15px 70px 20px 38px;
 	font: lighter 12px/14px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.how_faqs .accordion_article_content p a {
-	font: bolder 12px/14px myriadbold, arial, sans-serif;
-	text-decoration: none;
 	color: #75787b;
 }
 .how_mobile_desc {
@@ -1088,8 +959,8 @@ a.merchantLink {
 .learningcenter_goto label {
 	float: left;
 	width: 40px;
-	padding: 0px 0 0 0px;
-	font: lighter 14px/20px myriadlight, arial, sans-serif;
+	padding: 5px 0 0 0px;
+	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #1a1f71;
 }
 .learningcenter_goto select {
@@ -1122,10 +993,6 @@ a.merchantLink {
 .accordion_cat_header h2 {
 	padding: 9px 0 0 38px;
 	font: normal 18px/24px myriadregular, arial, sans-serif;
-	color: #1a1f71;
-}
-.accordion_cat_header h2 span {
-	font: lighter 18px/24px myriadlight, arial, sans-serif;
 	color: #1a1f71;
 }
 .no_border {
@@ -1170,7 +1037,7 @@ a.merchantLink {
 }
 .learningcenter_articles .continue_reading {
 	clear: both;
-	padding: 0 0 20px 325px;
+	padding: 0 0 20px 330px;
 	font: normal 14px/16px myriadregular, arial, sans-serif;
 	color: #1a1f71;
 }
@@ -1237,6 +1104,7 @@ a.signInLink {
 	padding: 11px 40px 0 0;
 	background: #f7b600;
 	text-align: right;
+	border-bottom: 2px solid #dedddd;
 }
 .signin_feat_discount_header p {
 	font: normal 14px/18px myriadregular, arial, sans-serif;
@@ -1247,19 +1115,20 @@ a.signInLink {
 	float: left;
 	width: 245px;
 	padding: 0 0 10px 0;
+	border-top: 2px solid #dedddd;
+	border-bottom: 2px solid #dedddd;
 	background: #ffffff;
 }
 .global_merchant_id img {
-	xfloat: right;
+	float: right;
 	padding: 0 20px 0 0;
-	text-align:center; 
 }
 .global_offer {
 	display: block;
 	position: relative;
 	float: left;
 	width: 700px;
-	padding: 0px 0 60px 30px;
+	padding: 10px 0 60px 30px;
 	background: #ffffff;
 }
 .merchantName_mobile {
@@ -1268,7 +1137,7 @@ a.signInLink {
 .global_offer .merchantName {
 	font: lighter 18px/24px myriadlight, arial, sans-serif;
 	color: #5c5c5c;
-	/*text-decoration: none;*/
+	text-decoration: none;
 }
 .merchantOffer {
 	font: normal 22px/26px myriadregular, arial, sans-serif;
@@ -1281,10 +1150,6 @@ a.signInLink {
 }
 .global_merchantSocial img {
 	float: left;
-}
-.signin_download_apps {
-	float: left;
-	border-top: 2px solid #dedddd;
 }
 .signin_download_apps img {
 	float: left;
@@ -1326,7 +1191,7 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 40px 0 40px 0;
@@ -1338,142 +1203,6 @@ a.signInLink {
 .myaccount_userid span {
 	font: normal 14px/16px myriadregular, arial, sans-serif;
 	color: #1a1f71;
-}
-.myaccount_info .accordion_article_content {
-	display: none;
-	border: none;
-	border-bottom: 1px solid #dedddd;
-}
-.myaccount_info .accordion_article_content p {
-	padding: 5px 0 5px 0;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_info .personal_info {
-	padding: 0 0 0 40px;
-}
-.card_info, .add_cards {
-	padding: 0 0 0 20px;
-}
-.enroll_form input.cardnum {
-	width: 54px;
-}
-.myaccount_info_form input.reg_field {
-	width: 200px;
-}
-.myaccount_info_form .form_submit {
-	width: 60px;
-	height: 38px;
-	margin: 20px 0;
-	background: url(|IMAGESRC|/bkg_formsubmit.gif) no-repeat;
-	border: none;
-	font: normal 16px/20px myriadregular, arial, sans-serif;
-	color: #ffffff;
-}
-.myaccount_single_content {
-	margin: 20px 0 0 40px;
-	border: none;
-}
-table {
-	float: left;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-th, td {
-	padding: 0;
-	text-align: left;
-	vertical-align: middle;
-	
-	font: normal 14px/18px myriadregular, arial, sans-serif;
-	color: #1a1f71;
-}
-#pnlCards table {
-	border: 1px solid #d8d8d8;
-	margin-bottom: 20px;
-	margin-top: -1px;
-	width:290px;
-}
-#pnlCards table tr th {
-	border-bottom: 1px solid #d8d8d8;
-	color: #303030;
-}
-#pnlCards table tr th, #pnlCards table tr td {
-	padding: 10px 15px;
-}
-
-.myaccount_single_content .add_card {
-	clear: both;
-	width: 148px;
-	height: 38px;
-	margin: 20px 0;
-	background: url(|IMAGESRC|/bkg_formsubmit.gif) no-repeat;
-	border: none;
-	font: normal 16px/20px myriadregular, arial, sans-serif;
-	color: #ffffff;
-}
-
-h1.myaccount_cp {
-	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-h2.myaccount_cp {
-	font: lighter 18px/22px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-p.myaccount_cp {
-	font: lighter 16px/20px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-h1.myaccount_tc {
-	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-p.myaccount_tc {
-	font: lighter 16px/20px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_single_content input.myaccount_checkbox {
-	clear: left;
-	float: left;
-}
-.myaccount_single_content .checkboxes label {
-	width: 500px;
-	display: inline-block;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_single_content .catagory_checkboxes_container {
-	width: 300px;
-	float: left;
-	padding: 0 0 10px 0;
-}
-.myaccount_single_content .catagory_checkboxes {
-	float: left;
-}
-.myaccount_single_content .catagory_checkboxes label {
-	float: left;
-	width: 150px;
-	display: inline-block;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_single_content .form_submit {
-	clear: both;
-	width: 60px;
-	height: 38px;
-	margin: 20px 0;
-	background: url(|IMAGESRC|/bkg_formsubmit.gif) no-repeat;
-	border: none;
-	font: normal 16px/20px myriadregular, arial, sans-serif;
-	color: #ffffff;
-}
-textarea.myaccount {
-	width: 600px;
-	height: 400px;
-	overflow: scroll;
-	resize: none;
-	font: lighter 12px/16px myriadlight, arial, sans-serif;
-	color: #75787b;
 }
 /*Search results Style Section*/
 .searchresults_field {
@@ -1510,11 +1239,11 @@ textarea.myaccount {
 	max-width: 964px;
 	margin: 60px 0 0 0;
 	padding: 40px 0 2% 5.8%;
-	background-color: #efcd30;
-	background: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
+	background-color: #d8dadc;
+	xbackground: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
+	xbackground: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
+	xbackground: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
+	xbackground: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
 }
 .enroll_gradiant_mobile {
 	display: none;
@@ -1555,6 +1284,10 @@ p.enroll_gradiant_legal {
 	font: lighter 18px/22px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
+
+.enroll_merchants p a{
+	color: #75787b;
+}
 .enroll_merchants img {
 	padding: 10px 0;
 	background: #ffffff;
@@ -1581,23 +1314,40 @@ p.enroll_gradiant_legal {
 	background: #ced1d4;
 	padding: 20px 0 20px 0;
 	text-align: left;
+	-moz-box-shadow: 2px 2px 4px 4px #bbb;
+	-webkit-box-shadow: 2px 2px 4px 4px #bbb;
+	box-shadow: 2px 2px 4px 4px #bbb;
 }
 .enroll_form p {
 	display: block;
 	font: lighter 12px/16px myriadlight, arial, sans-serif;
-	color: #1a1f71;
+	color: #5c5c5c;
 }
-.card_info {
+.card_info, .add_cards {
 	padding: 0 0 0 20px;
 }
 .enroll_form input.cardnum {
 	width: 54px;
+	margin: 0 0 5px 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.enroll_form input.cardnum {
+	width: 50px;
+	margin: 0 0 5px 0;
+}
 }
 .enroll_form input.reg_field {
 	width: 252px;
+	margin: 0 0 5px 0;
 }
 .enroll_form a {
 	display: block;
+	font: lighter 12px/16px myriadlight, arial, sans-serif;
+	color: #1a1f71;
+}
+.enroll_form a.tc {
+	display: inline-block;
 	font: lighter 12px/16px myriadlight, arial, sans-serif;
 	color: #1a1f71;
 }
@@ -1606,6 +1356,7 @@ p.enroll_gradiant_legal {
 }
 .enroll_form select {
 	width: 252px;
+	margin: 0 0 5px 0;
 }
 .enroll_form .checkboxes {
 	padding: 0 0 0 18px;
@@ -1698,7 +1449,7 @@ p.enroll_gradiant_legal {
 }
 .enroll_download_apps_content h2 {
 	font: normal 18px/24px myriadregular, arial, sans-serif;
-	color: #f7b600;
+	color: #5c5c5c;
 }
 .enroll_download_apps_content p {
 	width: 500px;
@@ -1712,7 +1463,7 @@ p.enroll_gradiant_legal {
 	color: #75787b;
 }
 .enroll_download_apps_content a {
-	margin: 0 30px 0 0;
+	margin: 10px 30px 0 0;
 	padding: 0 20px;
 	display: inline-block;
 }
@@ -1721,126 +1472,196 @@ p.enroll_gradiant_legal {
 	display: inline-block;
 }
 
-/*Video Page Style Seciton*/
-.video_container {
-	width: 1024px;
-	text-align: center;
-	padding: 20px 0;
-	background: #f0efef;
-}
-
-/* Footer Pages */
-
-#printControls {
-	position:absolute;
-	right:5%;
-	top:.5%;
-}
-
-#printControls ul li {
-	display:inline-block;	
-}
-
-#printControls ul li a {
-	color:#75787b;
-	text-decoration:none;	
-}
-
-#printControls ul li.printIcon {
-	border-right:1px solid #75787b;	
-	padding:0px 10px 0px 30px;
-	margin-right:10px;
-	background:url(|COMMONSRC|/printer_icon.png) top left no-repeat;
-}
-
-#terms_container h3 {
-	padding: 0 0 10px 0;
-	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	xcolor: #1a1f71;	
-}
-
-#terms_container a.back {
-	color:#75787b;	
-	margin-bottom:20px;
-	display:block;
-}
-
 /* Subsites */
 
-#subsite .global_header h1 a {
-	padding-right:10px;
-	display:inline-block;
+#subsite .enroll_download_apps_content h1 {
+	color:|COLOR1| /*COLOR1*/;	
 }
 
-#subsite .global_header h1 img {
-	border-left:2px solid #d8dadc;
-	display:inline-block;
-	padding-left:10px;
-	max-height:50px;
-	position:relative;
-	top:7px;
+#subsite ul.global_navigation li a.current {
+	border-bottom: solid 8px |COLOR1|;
+}
+#subsite ul.global_navigation li a:hover {
+	border-bottom: solid 8px |COLOR1|;
 }
 
-#subsite ul.global_navigation li a.current,
-#subsite ul.global_navigation li a:hover,
-#subsite .merchant_catagory {
-	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
+#subsite div.global_search a {
+	color:|COLOR1| /*COLOR1*/;		
 }
 
-#subsite .home_merchants,
-#subsite .how_faqs,
-#subsite .home_viewalldiscounts,
-#subsite .myaccount_info {
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
-}
-
-#subsite .learningcenter_goto,
-#subsite .dis_merchant_sortby,
-#subsite .app_button-blue {
+#subsite .learningcenter_goto {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;		
 }
 
-#subsite .learningcenter_articles .accordion_article_id h3,
-#subsite .merchantOffer,
-#subsite .merchantName_mobile span,
-#subsite .enroll_download_apps_content h1 {
+#subsite .learningcenter_articles .accordion_article_id h3 {
 	color:|COLOR1| /*COLOR1*/;		
 }
 
-#subsite .signin_feat_discount_header {
-	background-color:|COLOR1| /*COLOR1*/;
-}
-
-
 /********************************************************************************************************/
 /*										2 Media Query	 												*/
-/********************************************************************************************************
+/********************************************************************************************************/
+
 /*----------iPad (portrait and landscape)----------*/
 @media only screen and (min-width: 481px) and (max-width:768px) {
-.global_gradient-top {
-	width: 1024px;
-	height: 20px;
-	background-color: #efcd30;
-	xbackground: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
-	xbackground: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
-	xbackground: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
-	xbackground: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
-}
 .global_content {
 	position: relative;
-	width: 1024px;
+	width: 100%;
+	max-width: 1024px;
 	margin: 0 auto;
 }
-.global_wrapper-footer {
-	clear: both;
-	width: 1024px;
-	height: 69px;
-	xbackground-color: #1c1391;
-	xbackground: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
-	xbackground: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
-	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
-	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
+/* navigation subsection */
+h1.global_logo {
+	padding: 32px 0 0 20px;
+}
+
+h1.global_logo a {
+	color: #232096;
+	text-decoration: none;
+}
+.global_header {
+	height: 151px;
+}
+div.global_search {
+	padding: 23px 62px 0 0;
+	font-size: 14px;
+	line-height: 16px;
+}
+div.global_search input {
+	height: 38px;
+	width: 220px;
+	background: url(|IMAGESRC|/bkh_search_field.gif) no-repeat;
+	border: none;
+	padding: 0 0 0 20px;
+}
+.global_search_icon {
+	display: none;
+}
+div.global_search a {
+	text-decoration: none;
+	color: #1a1f71;
+}
+div.global_search ul {
+	list-style-type: none;
+	padding: 12px 0 0 18px;
+	margin: 0;
+}
+div.global_search ul li {
+	display: inline;
+	border-right: 1px solid #1a1f71;
+	padding: 0 9px 0 9px;
+}
+div.global_search ul li:first-child {
+	padding-left: 0;
+}
+div.global_search ul li:last-child {
+	border-right: none;
+	padding-right: 0;
+}
+ul.global_navigation {
+	float: left;
+	width: 695px;
+	margin: 10px 0 0 0;
+	padding: 0 50px 0 2.8%;
+	background: #ffffff;
+	border-bottom: solid 2px #dedddd;
+}
+ul.global_navigation li a {
+	float: left;
+	width: 24%;
+	height: 30px;
+	padding: 30px 0 0 0;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	text-decoration: none;
+	font: lighter 18px/ 24px myriadlight, arial, sans-serif;
+	color: #1a1f71;
+}
+ul.global_navigation li a.current {
+	border-bottom: solid 8px #f7b600;
+}
+ul.global_navigation li a:hover {
+	border-bottom: solid 8px #f7b600;
+}
+.enroll_download_apps img {
+	float: left;
+	width: 340px;
+}
+.enroll_download_apps_content {
+	float: left;
+	width: 360px;
+	margin: 0px 0 0px 10px;
+}
+.enroll_download_apps_content h1 {
+	font: lighter 18px/24px myriadlight, arial, sans-serif;
+	color: #1a1f71;
+}
+.enroll_download_apps_content h2 {
+	font: normal 14px/16px myriadregular, arial, sans-serif;
+	color: #f7b600;
+}
+.enroll_download_apps_content p {
+	width: 350px;
+	margin: 15px 0;
+	font: lighter 14px/16px myriadlight, arial, sans-serif;
+	color: #75787b;
+}
+.enroll_download_apps_content p.legal {
+	margin: 15px 0 0 0;
+	font: lighter 12px/26px myriadlight, arial, sans-serif;
+	color: #75787b;
+}
+.enroll_download_apps_content a {
+	padding: 0 20px;
+	margin: 10px 0 10px 58px;
+}
+.enroll_download_apps_content a img {
+	float: left;
+	display: none;
+}
+.enroll_download_apps_content a {
+	width: 180px;
+}
+/* SUBFOOTER SECTION */
+.global_wrapper-subfooter {
+	height: 230px;
+}
+.global_subfooter {
+	width: 100%;
+	padding: 40px 0 0 0;
+	font-size: 12px;
+	line-height: 22px;
+}
+.global_subfooter ul {
+	list-style-type: none;
+	padding: 0 0 25px 20px;
+	margin: 0px;
+}
+.global_subfooter ul li {
+	display: inline;
+	border-right: 1px solid #75787b;
+	padding: 0 9px 0 9px;
+}
+.global_subfooter ul li.lastfirstline {
+	display: inline;
+	border-right: none;
+	padding: 0 9px 0 9px;
+}
+.global_subfooter ul li.secondline {
+	display: inline;
+	border-right: 1px solid #75787b;
+	padding: 0 9px 0 0;
+}
+.global_subfooter ul li:first-child {
+	padding-left: 0;
+}
+.global_subfooter ul li:last-child {
+	border-right: none;
+	padding-right: 0;
+}
+div.global_subfooter-right {
+	float: left;
+	padding: 0 0 0 20px;
 }
 }
 
@@ -1863,13 +1684,8 @@ body {
 }
 h1.global_logo {
 	font-size: 24px;
-	padding: 16px 0 0 10px;
+	padding: 16px 0 0 0px;
 }
-h1.global_logo a {
-	color: #232096;
-	text-decoration: none;
-}
-
 .global_mobile_menu {
 	display: block;
 	width: 260px;
@@ -1922,7 +1738,7 @@ h1.global_logo a {
 	border-top: 1px solid #969a9d;
 }
 .global_mobile_menu ul li a:hover {
-	background: #1A1E5A;
+	background: #161a60;
 }
 .global_mobile_menu ul li.lastrow {
 	border-bottom: 1px solid #969a9d;
@@ -1932,23 +1748,14 @@ h1.global_logo a {
 	width: 100%;
 	z-index: 1000;
 }
-
-.global_footer-left {
-	padding-top: 19px;
-	padding-left: 0px;
-}
-.global_footer-right {
-	padding-top: 14px;
-	padding-right: 0px;
-}
-
 /* MAIN CONTENT SECTION */
 .global_content {
 	width: 320px;
 }
 /* navigation subsection */
 .global_header {
-	height: 70px;
+	height: auto;
+	min-height: 45px;
 }
 .global_search input {
 	display: none;
@@ -1977,7 +1784,7 @@ ul.global_navigation {
 	display: inline;
 	position: relative;
 	top: 4px;
-	color: #75787b;
+	color: #d8dadc;
 	font-size: 14px;
 	font-weight: normal;
 	text-align: center;
@@ -1996,7 +1803,6 @@ ul.global_navigation {
 }
 .global_footer-right ul li ul li.global_social-sublist-padding-right {
 	padding-right: 10px;
-	padding-top: 2px;
 }
 .global_footer-right ul li ul li.global_social-sublist-padding-left {
 	padding-left: 10px;
@@ -2132,7 +1938,7 @@ h2.app {
 	text-indent: 0;
 	display: inline-block;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
 	font-style: normal;
 	height: 30px;
@@ -2182,7 +1988,7 @@ div.app_download img {
 div.app_download-first {
 	margin-left: 0px;
 	margin-right: 0px;
-	padding: 30px 0 50px 70px;
+	padding: 30px 0 20px 70px;
 }
 .app_button-blue {
 	background: -webkit-linear-gradient(left, #1f1859, #232095); /* For Safari 5.1 to 6.0 */
@@ -2206,7 +2012,7 @@ div.app_download-first {
 	text-indent: 0;
 	display: inline-block;
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 14px;
 	font-family: myriadregular, arial, sans-serif;
 	font-style: normal;
 	height: 30px;
@@ -2243,23 +2049,13 @@ div.app_download-first {
 	width: 320px;
 }
 .global_footer-left {
-	padding: 13px 0 0 10px;
+	padding: 13px 0 0 20px;
 }
 .global_footer-left img {
 	width: 148px;
 	height: auto;
 }
-.global_frt {
-    float: left;
-	padding: 0 0 0 10px;
-}
 /*Discount Style Section*/
-.discount_slider {
-	display: none;
-}
-.discount_slider_mobile {
-	display: block;
-}
 .wrapper {
 	position: relative;
 	width: 320px;
@@ -2321,11 +2117,6 @@ div.app_download-first {
 	float: left;
 	border-bottom: 2px solid #ffffff;
 }
-p.merchantOfferDesc {
-	padding: 0 0 0 0;
-	font: normal 14px/18px myriadregular, arial, sans-serif;
-	color: #75787b;
-}
 .merchant_header {
 	float: left;
 	width: 320px;
@@ -2354,17 +2145,6 @@ p.merchantOfferDesc {
 	height: 90%;
 	margin: 0px 0 10px 20px;
 }
-
-.merchant_id .center {
-	height:80px;	
-	width:100px;
-	float:left;
-}
-
-.merchant_id .center .v-align {
-	text-align:left;	
-}
-
 .merchant_id p {
 	float: left;
 	margin: 10px 0 0 15px;
@@ -2430,15 +2210,9 @@ p.merchantOfferDesc {
 .dis_learn_more a {
 	position: relative;
 	top: 8px;
-	left: 65px;
+	left: 85px;
 }
 /*Home Style Section*/
-.home_slider {
-	display: none;
-}
-.home_slider_mobile {
-	display: block;
-}
 .shared_video {
 	display: none;
 }
@@ -2458,111 +2232,31 @@ p.merchantOfferDesc {
 }
 .home_business_savings h1 {
 	width: 100%;
-	font: lighter 18px/22px myriadlight, arial, sans-serif;
+	font: lighter 22px/26px myriadlight, arial, sans-serif;
 	color: #5c5c5c;
 }
 .home_business_savings p {
 	width: 300px;
 	margin: 10px 0;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.home_merchants {
-	position: relative;
-	display: block;
-	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
-	border-top: 2px solid #dedddd;
-	border-bottom: 2px solid #dedddd;
-	margin: 0 0 20px 0;
-}
-.home_merchants_desc {
-	float: left;
-	width: 310px;
-	margin: 10px 0 0 10px;
-}
-.home_merchants_desc h1 {
 	font: lighter 18px/22px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-.home_merchants_desc p {
-	width: 280px;
-	margin: 10px 0;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #75787b;
-}
-.home_merchants_desc p.legal {
-	width: 290px;
-	margin: 10px 0;
-	font: lighter 12px/16px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.home_merchants_logos {
-	width: 212px;
-	height: 119px;
-}
-.cycle-slideshow {
-	float: left;
-}
-.cycle-slideshow div.cycle-slide {
-	width: 320px;
-	height: 364px;
-	overflow: hidden;
-}
-#home_merchants_prev {
-	display: none;
-}
-#home_merchants_next {
-	display: none;
-}
-.page a {
-	float: left;
-	display: inline-block;
-	width: 158px;
-	height: 119px;
-	xpadding: 5px 0px;
-	border: 1px solid #dedddd;
-	text-decoration: none;
-	background: #ffffff;
-}
-
-.page .center {
-	height:75px;		
-}
-
-.page a img {
-	width: 100px;
-}
-.page p {
-	text-align: center;
-	font: normal 14px/14px myriadnormal, arial, sans-serif;
-	color: #75787b;
-}
-.home_viewalldiscounts {
-	float: left;
-	width: 245px;
-	height: 30px;
-	padding: 50px 0 50px 75px;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
-	border-bottom: 2px solid #dedddd;
 }
 .shared_eligible {
 	clear: both;
 	position: relative;
 	background: none;
 	margin: 20px 0 50px 5px;
-	border: none;
 }
 .shared_eligible a {
 	position: relative;
 	top: 8px;
-	left: 60px;
+	left: 80px;
 }
 .shared_eligible a.shared_eligible_link {
 	position: relative;
 	top: 8px;
 	left: 0px;
-	font: normal 12px/22px myriadregular, arial, sans-serif;
+	font: bold 12px/16px myriadbold, arial, sans-serif;
 	color: #75787b;
 }
 .shared_eligible input.shared_eligible_card_num {
@@ -2584,7 +2278,7 @@ p.merchantOfferDesc {
 	width: 250px;
 	font: lighter 12px/14px myriadlight, arial, sans-serif;
 	color: #75787b;
-	margin: 0 0 30px 10px;
+	margin: 0 0 0px 10px;
 }
 .shared_eligible label a.shared_terms_opt_link {
 	position: relative;
@@ -2627,7 +2321,6 @@ p.merchantOfferDesc {
 	color: #75787b;
 }
 .how_video p.legal {
-	width: 290px;
 	margin: 5px 0;
 	font: lighter 12px/16px myriadlight, arial, sans-serif;
 	color: #75787b;
@@ -2662,7 +2355,6 @@ p.merchantOfferDesc {
 }
 .accordion_list {
 	width: 320px;
-	border-bottom: 10px solid #d8dadc;
 }
 .accordion_cat {
 	display: block;
@@ -2671,7 +2363,7 @@ p.merchantOfferDesc {
 }
 .accordion_cat_header {
 	height: 38px;
-	background: url(|IMAGESRC|/bkg_how_faqs_header.gif) -315px 0px no-repeat;
+	background: url(|IMAGESRC|/bkg_how_faqs_header.gif) -300px 0px no-repeat;
 	cursor: pointer;
 }
 .accordion_cat_header h2 {
@@ -2679,36 +2371,17 @@ p.merchantOfferDesc {
 	font: normal 14px/18px myriadregular, arial, sans-serif;
 	color: #1a1f71;
 }
-.accordion_cat_header h2 span {
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
 .accordion_article_id {
 	display: none;
 	height: 40px;
-	line-height: 40px;
-	text-align: left;
 	border-bottom: 1px solid #dedddd;
-	background: url(|IMAGESRC|/bkg_merchant.gif) 0px -20px no-repeat;
+	background: url(|IMAGESRC|/bkg_merchant.gif) -15px -20px no-repeat;
 	cursor: pointer;
 }
 .accordion_article_id h3 {
-	width: 270px;
-	display: inline-block;
-	vertical-align: middle;
-	line-height: normal;
-	padding: 0 0 0 10px;
-	font: lighter 13px/15px myriadlight, arial, sans-serif;
+	padding: 15px 0 0 10px;
+	font: lighter 14px/16px myriadlight, arial, sans-serif;
 	color: #1a1f71;
-}
-.accordion_article_content {
-	display: none;
-	border-bottom: 1px solid #dedddd;
-}
-.accordion_article_content p {
-	padding: 15px 10px 20px 10px;
-	font: lighter 12px/14px myriadlight, arial, sans-serif;
-	color: #75787b;
 }
 .how_hero_enroll {
 	margin: 120px 0 0 76px;
@@ -2716,7 +2389,7 @@ p.merchantOfferDesc {
 /*Learning Center Style Section*/
 .learningcenter_hero {
 	padding: 0 0 0 0;
-	margin: 0 0 0 0;
+	margin: 0 0 40px 0;
 	background: #ffffff;
 	height: 290px;
 }
@@ -2735,7 +2408,7 @@ p.merchantOfferDesc {
 }
 .learningcenter_hero p {
 	width: 300px;
-	margin: 10px 0 0 0;
+	margin: 15px 0;
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
@@ -2748,8 +2421,8 @@ p.merchantOfferDesc {
 .learningcenter_articles .accordion_list {
 	float: left;
 	width: 320px;
-	border-top: 10px solid #F7B600;
-	border-bottom: 10px solid #F7B600;
+	border-top: 10px solid #ffb300;
+	border-bottom: 10px solid #ffb300;
 	margin: 0 0 40px 0;
 }
 .learningcenter_articles .accordion_cat {
@@ -2759,7 +2432,7 @@ p.merchantOfferDesc {
 .learningcenter_articles .accordion_cat_header {
 	display: block;
 	height: 38px;
-	background: url(|IMAGESRC|/bkg_how_faqs_header.gif) -315px 0px no-repeat;
+	background: url(|IMAGESRC|/bkg_how_faqs_header.gif) -290px 0px no-repeat;
 	border-bottom: 4px solid #ffffff;
 }
 .learningcenter_articles .accordion_cat_header h2 {
@@ -2775,9 +2448,8 @@ p.merchantOfferDesc {
 	display: none;
 	width: 305px;
 	min-height: 40px;
-	line-height: 40px;
 	height: auto;
-	background: url(|IMAGESRC|/bkg_merchant.gif) 0px -20px no-repeat;
+	background: url(|IMAGESRC|/bkg_merchant.gif) -4px -20px no-repeat;
 	margin: 0;
 	padding: 10px 0 0 15px;
 	border-bottom: 1px solid #dedddd;
@@ -2802,7 +2474,7 @@ p.merchantOfferDesc {
 	overflow: visible;
 }
 .learningcenter_articles .accordion_article_content p {
-	padding: 5px 0 20px 0;
+	padding: 15px 0 20px 0;
 	font: lighter 12px/14px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
@@ -2835,7 +2507,7 @@ p.merchantOfferDesc {
 a.signInLink {
 	clear: both;
 	display: block;
-	padding: 10px 0 0 10px;
+	padding: 10px 0 0 0;
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #75787b;
 	text-decoration: none;
@@ -2872,15 +2544,14 @@ a.signInLink {
 	padding: 0 0 0 10px;
 }
 .signin_hero .forget_password a {
-	font: lighter 14px/22px myriadlight, arial, sans-serif;
+	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
 .signin_feat_discount {
 	float: left;
 	width: 320px;
-	margin: 10px 0 0 0;
+	margin: 30px auto 0 auto;
 	clear: both;
-	border-bottom: 10px solid #ffb300;
 }
 .signin_feat_discount_header {
 	width: 310px;
@@ -2897,8 +2568,8 @@ a.signInLink {
 .global_merchant_id {
 	clear: both;
 	float: left;
-	width: 300px;
-	padding: 5px 0;
+	width: 320px;
+	padding: 10px 0;
 	background: #ffffff;
 	border: none;
 }
@@ -2906,20 +2577,12 @@ a.signInLink {
 	float: left;
 	padding: 0 0 0 10px;
 }
-.signin_feat_discount .global_offer {
-    background: none repeat scroll 0 0 #ffffff;
-    display: block;
-    float: left;
-    padding: 0 0 60px 10px;
-    position: relative;
-    width: 290px;
-}
 .global_offer {
 	display: block;
 	position: relative;
 	float: left;
 	width: 300px;
-	padding: 0px 0 100px 10px;
+	padding: 10px 0 100px 10px;
 	background: #ffffff;
 }
 .merchantName_mobile {
@@ -2945,17 +2608,15 @@ a.signInLink {
 	color: #f7b600;
 }
 .global_merchantSocial {
-	width: 200px;
-	position: relative;
-	top: 20px;
-	left: 50px;
+	position: absolute;
+	top: 310px;
+	left: 70px;
 }
 .global_merchantSocial img {
 	float: left;
 }
 .signin_download_apps {
 	clear: both;
-	width: 320px;
 }
 .signin_download_apps img {
 	float: left;
@@ -2964,7 +2625,7 @@ a.signInLink {
 .signin_download_apps_content {
 	float: left;
 	width: 300px;
-	margin: 10px 0 0px 10px;
+	margin: 60px 0 0px 10px;
 }
 .signin_download_apps_content h1 {
 	width: 250px;
@@ -2976,13 +2637,13 @@ a.signInLink {
 	color: #f7b600;
 }
 .signin_download_apps_content p {
-	width: 290px;
+	width: 270px;
 	margin: 15px 0;
 	font: lighter 14px/16px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
 .signin_download_apps_content p.legal {
-	margin: 0 0 0 0;
+	margin: 15px 0 0 0;
 	font: lighter 12px/26px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
@@ -2998,7 +2659,8 @@ a.signInLink {
 .myaccount_info {
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;	border-top: 2px solid #dedddd;
+	background: none;
+	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 10px 0 40px 0;
 }
@@ -3010,83 +2672,9 @@ a.signInLink {
 	font: normal 14px/16px myriadregular, arial, sans-serif;
 	color: #1a1f71;
 }
-.myaccount_info .personal_info {
-	padding: 0 0 0 10px;
-}
-.card_info {
-	padding: 0 0 0 20px;
-}
-
-.myaccount_single_content {
-	width: 280px;
-	margin: 20px 0 0 10px;
-	border: none;
-}
-h1.myaccount_cp {
-	font: lighter 16px/20px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-h2.myaccount_cp {
-	font: lighter 16px/20px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-p.myaccount_cp {
-	font: lighter 14px/28px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-h1.myaccount_tc {
-	font: lighter 16px/20px myriadlight, arial, sans-serif;
-	color: #1a1f71;
-}
-p.myaccount_tc {
-	font: lighter 14px/28px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_single_content input.myaccount_checkbox {
-	float: left;
-}
-.myaccount_single_content .checkboxes label {
-	width: 250px;
-	display: inline-block;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_single_content .catagory_checkboxes_container {
-	width: 280px;
-	float: left;
-	padding: 0 0 10px 0;
-}
-.myaccount_single_content .catagory_checkboxes {
-	float: left;
-}
-.myaccount_single_content .catagory_checkboxes label {
-	float: left;
-	width: 150px;
-	display: inline-block;
-	font: lighter 14px/18px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
-.myaccount_single_content .form_submit {
-	clear: both;
-	width: 60px;
-	height: 38px;
-	margin: 20px 0;
-	background: url(|IMAGESRC|/bkg_formsubmit.gif) no-repeat;
-	border: none;
-	font: normal 16px/20px myriadregular, arial, sans-serif;
-	color: #ffffff;
-}
-textarea.myaccount {
-	width: 290px;
-	height: 400px;
-	overflow: scroll;
-	resize: none;
-	font: lighter 12px/16px myriadlight, arial, sans-serif;
-	color: #75787b;
-}
 /*Search results Style Section*/
 .searchresults_field {
-	width: 310px;
+	width: 300px;
 	height: 40px;
 	padding: 10px 0 8px 10px;
 	background-color: #efcd30;
@@ -3100,7 +2688,7 @@ textarea.myaccount {
 }
 .searchresults_discount {
 	float: left;
-	margin: 0px 0 0 0;
+	margin: 30px 0 0 0;
 }
 .searchresults_discount .global_offer {
 	border-bottom: 2px solid #dedddd;
@@ -3111,9 +2699,9 @@ textarea.myaccount {
 .enroll_gradiant_mobile {
 	display: block;
 	width: 310px;
-	margin: 10px 0 0 0;
+	margin: 10px 10px 0 0;
 	padding: 20px 0 10px 10px;
-	background-color: #ffb300;
+	background-color: #FFF;
 }
 .enroll_gradiant_mobile h1 {
 	font: normal 18px/22px myriadregular, arial, sans-serif;
@@ -3150,6 +2738,9 @@ p.enroll_gradiant_legal {
 .enroll_merchants a {
 	margin: 30px 0 30px 58px;
 }
+.enroll_merchants p a {
+	margin: 0px;
+}
 .enroll_sidebar {
 	float: left;
 	position: relative;
@@ -3157,9 +2748,9 @@ p.enroll_gradiant_legal {
 	left: 0px;
 	text-align: center;
 }
-.enroll_sidebar h1 {
+/*.enroll_sidebar h1 {
 	display: none;
-}
+}*/
 .enroll_form {
 	position: relative;
 	top: 0px;
@@ -3168,6 +2759,9 @@ p.enroll_gradiant_legal {
 	background: #ced1d4;
 	padding: 20px 0 20px 10px;
 	text-align: left;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 .transaction_history {
 	width: 300px;
@@ -3207,7 +2801,7 @@ p.enroll_gradiant_legal {
 	width: 290px;
 	margin: 15px 0;
 	font: lighter 14px/16px myriadlight, arial, sans-serif;
-	color: #75787b;
+	color: #5c5c5c;
 }
 .enroll_download_apps_content p.legal {
 	margin: 15px 0 0 0;
@@ -3225,49 +2819,30 @@ p.enroll_gradiant_legal {
 .enroll_download_apps_content a {
 	width: 140px;
 }
-.global_mobile-hide {
-	display: none;
-}
-.global_mobile_only {
-	display: inline-block;
-}
-
 /* Subsites */
 
-#subsite .app_button-blue,
-#subsite .searchresults_field {
-	background:none;
-	background-color:|COLOR1| /*COLOR1*/;
+#subsite ul.global_navigation li a.current {
+	border-bottom: solid 8px |COLOR1|;
+}
+#subsite ul.global_navigation li a:hover {
+	border-bottom: solid 8px |COLOR1|;
 }
 
-#subsite .home_merchants,
-#subsite .how_faqs,
-#subsite .home_viewalldiscounts {
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+#subsite .enroll_download_apps_content h1 {
+	color:|COLOR1| /*COLOR1*/;	
 }
 
-#subsite .myaccount_info {
-	background:none;	
-}
-
-#subsite .learningcenter_articles .accordion_cat_header h2,
-#subsite .merchantOffer,
-#subsite .merchantName_mobile span,
-#subsite .enroll_download_apps_content h1,
-#subsite .merchant_header p {
-	color:|COLOR1| /*COLOR1*/	
-}
-
-#subsite .signin_feat_discount_header {
-	background-color:|COLOR1| /*COLOR1*/;
-}
-
-#subsite .global_mobile_menu ul li a:hover {
-	background:|COLOR1| /*COLOR1*/;	
+#subsite div.global_search a {
+	color:|COLOR1| /*COLOR1*/;		
 }
 
 #subsite .learningcenter_articles .accordion_list {
-	border-color:|COLOR1| /*COLOR1*/;		
+	border-bottom: 10px solid |COLOR1| /*COLOR1*/;
+    border-top: 10px solid |COLOR1| /*COLOR1*/;	
+}
+
+#subsite .learningcenter_articles .accordion_cat_header h2 {
+	color:|COLOR1| /*COLOR1*/;		
 }
 
 }
@@ -3277,13 +2852,11 @@ p.enroll_gradiant_legal {
 .global_desktop-hide {
 	display: none;
 }
-}
 
 #search_form, #desktop_search_form, #mobile_search_form {
     display: inline-block;
 }
+}
 
 
 .input_error { border: 1px solid red; }
-/* CSS Document */
-
