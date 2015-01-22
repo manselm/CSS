@@ -1765,6 +1765,10 @@ p.enroll_gradiant_legal {
 	display:block;
 }
 
+#eligibility_error, .err, .error_msg {
+	color:#d00;	
+}
+
 /* Subsites */
 
 #subsite .global_header h1 a {
