@@ -2844,6 +2844,10 @@ p.enroll_gradiant_legal {
 	color:|COLOR1| /*COLOR1*/;	
 }
 
+#subsite .enroll_gradiant_mobile {
+	background-color:#d8dadc;	
+}
+
 #subsite div.global_search a {
 	color:|COLOR1| /*COLOR1*/;		
 }

@@ -1794,12 +1794,12 @@ p.enroll_gradiant_legal {
 #subsite .home_merchants,
 #subsite .how_faqs,
 #subsite .home_viewalldiscounts,
-#subsite .myaccount_info {
+#subsite .myaccount_info,
+#subsite .dis_merchant_sortby.
+#subsite .learningcenter_goto {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
 }
 
-#subsite .learningcenter_goto,
-#subsite .dis_merchant_sortby,
 #subsite .app_button-blue {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;		
