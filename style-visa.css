@@ -2649,6 +2649,19 @@ p.merchantOfferDesc {
 	left: 210px;
 	cursor: pointer;
 }
+
+.how_video_img_link_mobile a img#subsite_hiw {
+	display:none;	
+}
+
+.how_video_img_link_mobile a img {
+	display:none;	
+}
+
+#subsite .how_video_img_link_mobile a img#subsite_hiw {
+	display:block;	
+}
+
 .accordion_desc {
 	float: left;
 	width: 290px;
