@@ -1794,10 +1794,15 @@ p.enroll_gradiant_legal {
 #subsite .home_merchants,
 #subsite .how_faqs,
 #subsite .home_viewalldiscounts,
-#subsite .myaccount_info,
-#subsite .dis_merchant_sortby.
-#subsite .learningcenter_goto {
+#subsite .myaccount_info {
 	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
+#subsite .learningcenter_goto,
+#subsite .searchresults_field,
+#subsite .dis_merchant_sortby {
+	background:none;
+	background-color:#d8dadc;
 }
 
 #subsite .app_button-blue {
@@ -1821,7 +1826,7 @@ p.enroll_gradiant_legal {
 /*										2 Media Query	 												*/
 /********************************************************************************************************
 /*----------iPad (portrait and landscape)----------*/
-@media only screen and (min-width: 481px) and (max-width:768px) {
+@media only screen and (min-device-width: 481px) and (max-device-width:768px) {
 .global_gradient-top {
 	width: 1024px;
 	height: 20px;
@@ -1849,7 +1854,7 @@ p.enroll_gradiant_legal {
 }
 
 /*----------Smartphones (portrait and landscape)----------*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
 /* TOP GRADIENT SECTION */
 .global_gradient-top {
 	position: relative;
