@@ -1475,6 +1475,11 @@ p.enroll_gradiant_legal {
 
 /* Subsites */
 
+#subsite .app_button-blue {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;	
+}
+
 #subsite .enroll_gradiant {
 	background:none;
 	background-color:#d8dadc;	
