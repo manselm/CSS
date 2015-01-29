@@ -2833,32 +2833,55 @@ p.enroll_gradiant_legal {
 }
 /* Subsites */
 
-#subsite ul.global_navigation li a.current {
-	border-bottom: solid 8px |COLOR1|;
-}
-#subsite ul.global_navigation li a:hover {
-	border-bottom: solid 8px |COLOR1|;
+#subsite .global_header { 
+	height:100px !important;
 }
 
-#subsite .enroll_download_apps_content h1 {
-	color:|COLOR1| /*COLOR1*/;	
+#subsite .global_header h1 img {
+	float:left;
+	border:none;
+	margin:5px 0px 0px;	
+}
+
+#subsite .app_button-blue,
+#subsite .searchresults_field {
+	background:none;
+	background-color:|COLOR1| /*COLOR1*/;
+}
+
+#subsite .home_merchants,
+#subsite .how_faqs,
+#subsite .home_viewalldiscounts {
+	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;	
+}
+
+#subsite .myaccount_info {
+	background:none;	
 }
 
 #subsite .enroll_gradiant_mobile {
-	background-color:#d8dadc;	
+	background-color:#d8dadc;
 }
 
-#subsite div.global_search a {
-	color:|COLOR1| /*COLOR1*/;		
+#subsite .learningcenter_articles .accordion_cat_header h2,
+#subsite .merchantOffer,
+#subsite .merchantName_mobile span,
+#subsite .enroll_download_apps_content h1,
+#subsite .merchant_header p {
+	color:|COLOR1| /*COLOR1*/	
 }
 
-#subsite .learningcenter_articles .accordion_list {
-	border-bottom: 10px solid |COLOR1| /*COLOR1*/;
-    border-top: 10px solid |COLOR1| /*COLOR1*/;	
+#subsite .signin_feat_discount_header {
+	background-color:|COLOR1| /*COLOR1*/;
 }
 
-#subsite .learningcenter_articles .accordion_cat_header h2 {
-	color:|COLOR1| /*COLOR1*/;		
+#subsite .global_mobile_menu ul li a:hover {
+	background:|COLOR1| /*COLOR1*/;	
+}
+
+#subsite .learningcenter_articles .accordion_list,
+#subsite .offer_grid {
+	border-color:|COLOR1| /*COLOR1*/;		
 }
 
 }

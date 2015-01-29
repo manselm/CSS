@@ -975,7 +975,7 @@ a.merchantLink {
 	position: relative;
 	display: block;
 	float: left;
-	background: url(|IMAGESRC|/bkg_how_faq_gray.gif) repeat-y;
+	background: url(|IMAGESRC|/bkg_how_faq.gif) repeat-y;
 	border-top: 2px solid #dedddd;
 	border-bottom: 2px solid #dedddd;
 	margin: 0 0 40px 0;
@@ -3290,8 +3290,8 @@ p.enroll_gradiant_legal {
 
 /* Subsites */
 
-#subsite .global_header {
-	height:100px;	
+#subsite .global_header { 
+	height:100px !important;
 }
 
 #subsite .global_header h1 img {
@@ -3314,6 +3314,10 @@ p.enroll_gradiant_legal {
 
 #subsite .myaccount_info {
 	background:none;	
+}
+
+#subsite .enroll_gradiant_mobile {
+	background-color:#d8dadc;
 }
 
 #subsite .learningcenter_articles .accordion_cat_header h2,
