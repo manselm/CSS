@@ -1753,6 +1753,14 @@ p.enroll_gradiant_legal {
 	background:url(|COMMONSRC|/printer_icon.png) top left no-repeat;
 }
 
+#terms_container {
+	padding:5px;	
+}
+
+#terms_container #terms_container {
+	padding:0px;	
+}
+
 #terms_container h3 {
 	padding: 0 0 10px 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
@@ -1763,6 +1771,23 @@ p.enroll_gradiant_legal {
 	color:#75787b;	
 	margin-bottom:20px;
 	display:block;
+}
+
+#terms_container strong {
+	font-weight:bold;	
+}
+
+#terms_container p,
+#terms_container ul {
+	margin-bottom:10px;	
+}
+
+#terms_container ul ul {
+	margin-left:10px;	
+}
+
+#terms_container ul li {
+	margin-bottom:8px;	
 }
 
 #eligibility_error, .err, .error_msg {
@@ -1815,6 +1840,11 @@ p.enroll_gradiant_legal {
 #subsite .merchantName_mobile span,
 #subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/;		
+}
+
+
+#subsite .dis_total_savings {
+	background:url(|IMAGESRC|/bkg_your_savings_subsite.png) |COLOR1| 0px 0px no-repeat;	
 }
 
 #subsite .signin_feat_discount_header {
@@ -2360,8 +2390,9 @@ p.merchantOfferDesc {
 }
 .merchant_id img {
 	float: left;
-	height: 90%;
-	margin: 0px 0 10px 20px;
+	max-height:54px;
+	max-width:115px;
+	margin: 0px 6px 19px 15px;
 }
 
 .merchant_id .center {
@@ -2655,8 +2686,9 @@ p.merchantOfferDesc {
 	cursor: pointer;
 }
 
-.how_video_img_link_mobile a img#subsite_hiw {
-	display:none;	
+#subsite .how_video_img_link_mobile a img#subsite_hiw {
+	display:block;
+	background-color:|COLOR1|;	
 }
 
 .how_video_img_link_mobile a img {
@@ -3256,6 +3288,16 @@ p.enroll_gradiant_legal {
 
 /* Subsites */
 
+#subsite .global_header {
+	height:100px;	
+}
+
+#subsite .global_header h1 img {
+	float:left;
+	border:none;
+	margin:5px 0px 0px;	
+}
+
 #subsite .app_button-blue,
 #subsite .searchresults_field {
 	background:none;
@@ -3288,7 +3330,8 @@ p.enroll_gradiant_legal {
 	background:|COLOR1| /*COLOR1*/;	
 }
 
-#subsite .learningcenter_articles .accordion_list {
+#subsite .learningcenter_articles .accordion_list,
+#subsite .offer_grid {
 	border-color:|COLOR1| /*COLOR1*/;		
 }
 
