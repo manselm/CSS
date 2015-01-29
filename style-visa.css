@@ -1763,8 +1763,9 @@ p.enroll_gradiant_legal {
 
 #terms_container h3 {
 	padding: 0 0 10px 0;
-	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	xcolor: #1a1f71;	
+	font-weight:bold;
+	font-size:1.17em;
+	font-family:myriadregular, arial, sans-serif;
 }
 
 #terms_container a.back {
@@ -1775,6 +1776,7 @@ p.enroll_gradiant_legal {
 
 #terms_container strong {
 	font-weight:bold;	
+	font-family:myriadregular, arial, sans-serif;
 }
 
 #terms_container p,
