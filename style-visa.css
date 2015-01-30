@@ -2690,7 +2690,7 @@ p.merchantOfferDesc {
 
 #subsite .how_video_img_link_mobile a img#subsite_hiw {
 	display:block;
-	background-color:|COLOR1|;	
+	xbackground-color:|COLOR1|;	
 }
 
 .how_video_img_link_mobile a img {
@@ -3300,8 +3300,7 @@ p.enroll_gradiant_legal {
 	margin:5px 0px 0px;	
 }
 
-#subsite .app_button-blue,
-#subsite .searchresults_field {
+#subsite .app_button-blue {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;
 }
@@ -3316,7 +3315,8 @@ p.enroll_gradiant_legal {
 	background:none;	
 }
 
-#subsite .enroll_gradiant_mobile {
+#subsite .enroll_gradiant_mobile,
+#subsite .searchresults_field {
 	background-color:#d8dadc;
 }
 
