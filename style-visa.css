@@ -668,9 +668,11 @@ a.merchantLink {
 	text-decoration: none;
 }
 .merchantSocial {
-	position: absolute;
-	top: 20px;
-	right: 10%;
+		width: 200px;
+		clear: both;
+		position: relative;
+		top: 10px;
+		left: 65px;
 }
 .merchantSocial img {
 	float: left;
