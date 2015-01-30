@@ -2191,10 +2191,11 @@ div.app_download-first {
 	text-decoration: none;
 }
 .merchantSocial {
+	width: 200px;
 	clear: both;
 	position: relative;
 	top: 10px;
-	left: 50px;
+	left: 65px;
 }
 .merchantSocial img {
 	float: left;
@@ -2831,6 +2832,22 @@ p.enroll_gradiant_legal {
 .enroll_download_apps_content a {
 	width: 140px;
 }
+
+/*Video Page Style Seciton*/
+.video_container {
+	width: 320px;
+	text-align: center;
+	padding: 20px 0;
+	background: #f0efef;
+}
+.video_container video {
+	display: none;
+}
+	.video_container a img{
+	display: block;
+	width: 300px;
+}
+
 /* Subsites */
 
 #subsite .global_header { 

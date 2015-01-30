@@ -971,6 +971,11 @@ a.merchantLink {
 .how_video_img_link_mobile {
 	display: none;
 }
+
+.video_container video {
+		display: none;
+}
+
 .how_faqs {
 	position: relative;
 	display: block;
@@ -1832,7 +1837,9 @@ p.enroll_gradiant_legal {
 	background-color:#d8dadc;
 }
 
-#subsite .app_button-blue {
+#subsite .app_button-blue,
+#subsite .myaccount_single_content .add_card,
+#subsite .myaccount_info_form .form_submit {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;		
 }
