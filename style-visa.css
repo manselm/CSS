@@ -1736,10 +1736,16 @@ p.enroll_gradiant_legal {
 
 /* Footer Pages */
 
+.terms_dialog .global_content {
+	z-index:1;	
+}
+
 #printControls {
 	position:absolute;
 	right:5%;
 	top:.5%;
+	display:block;
+	z-index:9999;
 }
 
 #printControls ul li {
@@ -1784,13 +1790,22 @@ p.enroll_gradiant_legal {
 	font-family:myriadregular, arial, sans-serif;
 }
 
-#terms_container p,
+#terms_container p {
+	margin:12px 0px;	
+}
+
+#terms_container br {
+	line-height:1.2;	
+}
+
 #terms_container ul {
-	margin-bottom:10px;	
+	list-style:disc;
+	padding-left:40px;
+	margin:12px 0px;	
 }
 
 #terms_container ul ul {
-	margin-left:10px;	
+	list-style:circle;	
 }
 
 #terms_container ul li {
@@ -3324,7 +3339,8 @@ p.enroll_gradiant_legal {
 	margin:5px 0px 0px;	
 }
 
-#subsite .app_button-blue {
+#subsite .app_button-blue,
+#subsite .myaccount_single_content .form_submit {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;
 }
@@ -3356,7 +3372,8 @@ p.enroll_gradiant_legal {
 	background-color:|COLOR1| /*COLOR1*/;
 }
 
-#subsite .global_mobile_menu ul li a:hover {
+#subsite .global_mobile_menu ul li a:hover,
+#subsite .global_mobile_menu ul li a:focus {
 	background:|COLOR1| /*COLOR1*/;	
 }
 
