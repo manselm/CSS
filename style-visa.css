@@ -657,6 +657,9 @@ a.merchantLink {
 	font: normal 12px/13px myriadregular, arial, sans-serif;
 	color: #75787b;
 }
+.merchantOfferTC ul {
+	list-style:disc;	
+}
 .merchantEnrollNow {
 	float: left;
 	width: 101px;
