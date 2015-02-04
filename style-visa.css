@@ -1903,7 +1903,8 @@ a.infopop:active p.obscured{
 
 #subsite .app_button-blue,
 #subsite .myaccount_single_content .add_card,
-#subsite .myaccount_info_form .form_submit {
+#subsite .myaccount_info_form .form_submit,
+#subsite .myaccount_single_content .form_submit {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;		
 }
