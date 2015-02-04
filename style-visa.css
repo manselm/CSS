@@ -2463,9 +2463,9 @@ p.merchantOfferDesc {
 	background: url(|IMAGESRC|/bkg_merchant.gif) 0px 0px no-repeat;
 }
 .merchant_id img {
-	float: left;
+	xfloat: left;
 	max-height:54px;
-	max-width:115px;
+	max-width:80px;
 	margin: 0px 6px 19px 15px;
 }
 
@@ -2476,7 +2476,7 @@ p.merchantOfferDesc {
 }
 
 .merchant_id .center .v-align {
-	text-align:left;	
+	text-align:center;	
 }
 
 .merchant_id p {

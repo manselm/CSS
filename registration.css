@@ -1294,9 +1294,27 @@ p.enroll_gradiant_legal {
 .enroll_merchants p a{
 	color: #75787b;
 }
-.enroll_merchants img {
-	padding: 10px 0;
+.enroll_merchants_logos .retailer {
+	float:left;
+	width:170px;	
+	height:80px;
+}
+.enroll_merchants_logos .retailer .center {
+	width:150px;
+	padding:5px 10px;
+	height:70px;
+	display:table;
+}
+.enroll_merchants_logos .retailer .center .v-align {
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+.enroll_merchants .retailer .center .v-align img {
+	xpadding: 10px 0;
 	background: #ffffff;
+	max-height:70px;
+	max-width:150px;
 }
 .enroll_merchants a {
 	margin: 30px 0;
@@ -2794,10 +2812,7 @@ p.enroll_gradiant_legal {
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
-.enroll_merchants img {
-	padding: 10px 0;
-	background: #ffffff;
-}
+
 .enroll_merchants a {
 	margin: 30px 0 30px 58px;
 }
