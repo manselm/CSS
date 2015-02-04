@@ -1478,6 +1478,10 @@ p.enroll_gradiant_legal {
 	display: inline-block;
 }
 
+#eligibility_error, .err, .error_msg {
+	color:#d00;	
+}
+
 /* Tooltip */      
                
 a.infopop p{
