@@ -1136,6 +1136,14 @@ a.merchantLink {
 	float: left;
 	width: 1024px;
 }
+.learningcenter_articles b {
+	font-weight:bold;	
+	font-family:myriadregular, arial, sans-serif;
+}
+.learningcenter_articles ul {
+	margin-left:30px;
+	list-style:disc;		
+}
 .learningcenter_articles .accordion_cat_header {
 	display: none;/*height: 38px;
 	background: url(|IMAGESRC|/bkg_how_faqs_header.gif) 0px 0px no-repeat;
