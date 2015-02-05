@@ -1496,7 +1496,7 @@ p.enroll_gradiant_legal {
 	display: inline-block;
 }
 
-#eligibility_error, .err, .error_msg {
+#eligibility_error, .err, .error_msg, .err p {
 	color:#d00;	
 }
 

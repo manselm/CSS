@@ -1123,6 +1123,15 @@ a.merchantLink {
 	width: 1024px;
 	border: none;
 }
+#article_185222 p a img {
+	background: -webkit-linear-gradient(left, #1f1859, #232095); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #1f1859, #232095); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #1f1859, #232095); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #1f1859, #232095); /* Standard syntax */
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f1859', endColorstr='#232095');
+	background-color: #1f1859;
+}
+
 .learningcenter_articles .accordion_cat {
 	float: left;
 	width: 1024px;
@@ -1904,7 +1913,8 @@ a.infopop:active p.obscured{
 #subsite .app_button-blue,
 #subsite .myaccount_single_content .add_card,
 #subsite .myaccount_info_form .form_submit,
-#subsite .myaccount_single_content .form_submit {
+#subsite .myaccount_single_content .form_submit
+#subsite #article_185222 p a img {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;		
 }
