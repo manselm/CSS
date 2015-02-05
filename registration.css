@@ -196,11 +196,11 @@ ul.global_navigation li a:hover {
 .global_wrapper-footer {
 	clear: both;
 	height: 69px;
-	xbackground-color: #1c1391;
-	xbackground: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
-	xbackground: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
-	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
-	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
+	background-color: #1c1391;
+	background: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
 }
 .global_footer {
 	width: 1024px;
@@ -216,7 +216,7 @@ ul.global_navigation li a:hover {
 	display: inline;
 	position: relative;
 	top: 4px;
-	color: #d8dadc;
+	color: #FFF;
 	font-size: 12px;
 	font-weight: bold;
 }
@@ -240,7 +240,7 @@ ul.global_navigation li a:hover {
 	top: 9px;
 }
 a.global_link-facebook {
-	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
+	background-image: url(|IMAGESRC|/footer-facebook.png);
 	display: block;
 	width: 10px;
 	height: 19px;
@@ -249,7 +249,7 @@ a.global_link-facebook {
 	white-space: nowrap;
 }
 a.global_link-twitter {
-	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
+	background-image: url(|IMAGESRC|/footer-twitter.png);
 	display: block;
 	width: 16px;
 	height: 19px;
@@ -258,7 +258,7 @@ a.global_link-twitter {
 	white-space: nowrap;
 }
 a.global_link-mail {
-	background-image: url(|IMAGESRC|/footer-mail-gray.png);
+	background-image: url(|IMAGESRC|/footer-mail.png);
 	display: block;
 	width: 18px;
 	height: 19px;
@@ -267,7 +267,7 @@ a.global_link-mail {
 	white-space: nowrap;
 }
 a.global_link-ios {
-	background-image: url(|IMAGESRC|/footer-ios-gray.png);
+	background-image: url(|IMAGESRC|/footer-ios.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -276,7 +276,7 @@ a.global_link-ios {
 	white-space: nowrap;
 }
 a.global_link-android {
-	background-image: url(|IMAGESRC|/footer-android-gray.png);
+	background-image: url(|IMAGESRC|/footer-android.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -1952,7 +1952,7 @@ ul.global_navigation {
 	top: 9px;
 }
 a.global_link-facebook {
-	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
+	background-image: url(|IMAGESRC|/footer-facebook-mobile.png);
 	display: block;
 	width: 10px;
 	height: 19px;
@@ -1962,7 +1962,7 @@ a.global_link-facebook {
 	margin: 0 10px 0 0;
 }
 a.global_link-twitter {
-	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
+	background-image: url(|IMAGESRC|/footer-twitter-mobile.png);
 	display: block;
 	width: 16px;
 	height: 19px;
@@ -1972,7 +1972,7 @@ a.global_link-twitter {
 	margin: 0 10px 0 0;
 }
 a.global_link-mail {
-	background-image: url(|IMAGESRC|/footer-mail-gray.png);
+	background-image: url(|IMAGESRC|/footer-mail-mobile.png);
 	display: block;
 	width: 18px;
 	height: 19px;
@@ -1982,7 +1982,7 @@ a.global_link-mail {
 	margin: 0 10px 0 10px;
 }
 a.global_link-ios {
-	background-image: url(|IMAGESRC|/footer-ios-gray.png);
+	background-image: url(|IMAGESRC|/footer-ios-mobile.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -1992,7 +1992,7 @@ a.global_link-ios {
 	margin: 0 10px 0 20px;
 }
 a.global_link-android {
-	background-image: url(|IMAGESRC|/footer-android-gray.png);
+	background-image: url(|IMAGESRC|/footer-android-mobile.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -2980,6 +2980,35 @@ p.enroll_gradiant_legal {
 	float:left;
 	border:none;
 	margin:5px 0px 0px;	
+}
+/* FOOTER SECTION */
+#subsite .global_wrapper-footer {
+	background-color:#FFF;
+	background:none; /* For Safari 5.1 to 6.0 */
+}
+
+#subsite .global_footer-right h6 {
+	color: #75787b;
+}
+
+#subsite .global_footer-right ul li.global_social-list-border {
+	border-right: 2px solid #d8dadc;
+}
+
+#subsite a.global_link-facebook {
+	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
+}
+#subsite a.global_link-twitter {
+	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
+}
+#subsite a.global_link-mail {
+	background-image: url(|IMAGESRC|/footer-mail-gray.png);
+}
+#subsite a.global_link-ios {
+	background-image: url(|IMAGESRC|/footer-ios-gray.png);
+}
+#subsite a.global_link-android {
+	background-image: url(|IMAGESRC|/footer-android-gray.png);
 }
 
 #subsite .app_button-blue,
