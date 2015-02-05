@@ -1543,6 +1543,63 @@ a.infopop:active p.obscured{
 
 /* Subsites */
 
+/* FOOTER SECTION */
+#subsite .global_wrapper-footer {
+	clear: both;
+	height: 69px;
+	xbackground-color: #1c1391;
+	xbackground: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
+	xbackground: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
+	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
+	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
+}
+
+#subsite a.global_link-facebook {
+	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
+	display: block;
+	width: 10px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-twitter {
+	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
+	display: block;
+	width: 16px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-mail {
+	background-image: url(|IMAGESRC|/footer-mail-gray.png);
+	display: block;
+	width: 18px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-ios {
+	background-image: url(|IMAGESRC|/footer-ios-gray.png);
+	display: block;
+	width: 15px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-android {
+	background-image: url(|IMAGESRC|/footer-android-gray.png);
+	display: block;
+	width: 15px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
 #subsite .app_button-blue {
 	background:none;
 	background-color:|COLOR1| /*COLOR1*/;	

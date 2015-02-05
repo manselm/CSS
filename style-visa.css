@@ -196,7 +196,7 @@ ul.global_navigation li a {
 	display: inline-block;
 	text-decoration: none;
 	font: lighter 18px/ 24px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #FFF;
 }
 ul.global_navigation li a.current {
 	border-bottom: solid 8px #f7b600;
@@ -208,11 +208,11 @@ ul.global_navigation li a:hover {
 .global_wrapper-footer {
 	clear: both;
 	height: 69px;
-	xbackground-color: #1c1391;
-	xbackground: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
-	xbackground: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
-	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
-	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
+	background-color: #1c1391;
+	background: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
 }
 .global_footer {
 	width: 1024px;
@@ -254,7 +254,7 @@ ul.global_navigation li a:hover {
 	top: 9px;
 }
 a.global_link-facebook {
-	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
+	background-image: url(|IMAGESRC|/footer-facebook.png);
 	display: block;
 	width: 10px;
 	height: 19px;
@@ -263,7 +263,7 @@ a.global_link-facebook {
 	white-space: nowrap;
 }
 a.global_link-twitter {
-	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
+	background-image: url(|IMAGESRC|/footer-twitter.png);
 	display: block;
 	width: 16px;
 	height: 19px;
@@ -272,7 +272,7 @@ a.global_link-twitter {
 	white-space: nowrap;
 }
 a.global_link-mail {
-	background-image: url(|IMAGESRC|/footer-mail-gray.png);
+	background-image: url(|IMAGESRC|/footer-mail.png);
 	display: block;
 	width: 18px;
 	height: 19px;
@@ -281,7 +281,7 @@ a.global_link-mail {
 	white-space: nowrap;
 }
 a.global_link-ios {
-	background-image: url(|IMAGESRC|/footer-ios-gray.png);
+	background-image: url(|IMAGESRC|/footer-ios.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -290,7 +290,7 @@ a.global_link-ios {
 	white-space: nowrap;
 }
 a.global_link-android {
-	background-image: url(|IMAGESRC|/footer-android-gray.png);
+	background-image: url(|IMAGESRC|/footer-android.png);
 	display: block;
 	width: 15px;
 	height: 19px;
@@ -1896,6 +1896,67 @@ a.infopop:active p.obscured{
 	max-height:50px;
 	position:relative;
 	top:7px;
+}
+
+/* FOOTER SECTION */
+#subsite .global_wrapper-footer {
+	clear: both;
+	height: 69px;
+	xbackground-color: #1c1391;
+	xbackground: -webkit-linear-gradient(left, #190b51, #1c1391); /* For Safari 5.1 to 6.0 */
+	xbackground: -o-linear-gradient(right, #190b51, #1c1391); /* For Opera 11.1 to 12.0 */
+	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
+	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
+}
+
+#subsite ul.global_navigation li a {
+	color: #5c5c5c;
+}
+
+#subsite a.global_link-facebook {
+	background-image: url(|IMAGESRC|/footer-facebook-gray.png);
+	display: block;
+	width: 10px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-twitter {
+	background-image: url(|IMAGESRC|/footer-twitter-gray.png);
+	display: block;
+	width: 16px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-mail {
+	background-image: url(|IMAGESRC|/footer-mail-gray.png);
+	display: block;
+	width: 18px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-ios {
+	background-image: url(|IMAGESRC|/footer-ios-gray.png);
+	display: block;
+	width: 15px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#subsite a.global_link-android {
+	background-image: url(|IMAGESRC|/footer-android-gray.png);
+	display: block;
+	width: 15px;
+	height: 19px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
 }
 
 #subsite ul.global_navigation li a.current,
