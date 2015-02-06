@@ -877,6 +877,13 @@ a.merchantLink {
 .home_steps img {
 	float: left;
 }
+
+.home_steps img.hiw_img {
+	display:block;	
+}
+.home_steps img.subsite_hiw {
+	display:none;
+}
 .home_steps p {
 	width: 180px;
 	font: lighter 18px/24px myriadlight, arial, sans-serif;
@@ -1932,6 +1939,13 @@ a.infopop:active p.obscured{
 #subsite ul.global_navigation li a:hover,
 #subsite .merchant_catagory {
 	border-bottom: solid 8px |COLOR1| /*COLOR1*/;
+}
+
+#subsite .home_steps img.hiw_img {
+	display:none;	
+}
+#subsite .home_steps img.subsite_hiw {
+	display:block;
 }
 
 #subsite .home_merchants,
