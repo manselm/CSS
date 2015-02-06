@@ -209,6 +209,13 @@ ul.global_navigation li a:hover {
 .global_footer-left {
 	padding-top: 19px;
 }
+.global_footer-left img#footer_logo {
+	display:block;	
+}
+.global_footer-left img#footer_subsite {
+	display:none;	
+}
+
 .global_footer-right {
 	padding-top: 14px;
 }
@@ -1543,6 +1550,10 @@ a.infopop:active p.obscured{
 
 /* Subsites */
 
+#subsite .global_gradient-top {
+	display:none;	
+}
+
 /* FOOTER SECTION */
 #subsite .global_wrapper-footer {
 	clear: both;
@@ -1598,6 +1609,12 @@ a.infopop:active p.obscured{
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
+}
+#subsite .global_footer-left img#footer_logo {
+	display:none;	
+}
+#subsite .global_footer-left img#footer_subsite {
+	display:block;	
 }
 
 #subsite .app_button-blue {

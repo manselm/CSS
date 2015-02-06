@@ -739,7 +739,7 @@ a.merchantLink {
 }
 .shared_video h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #1a1f71;
 }
 .shared_video p {
 	width: 500px;
@@ -755,6 +755,13 @@ a.merchantLink {
 .shared_video a {
 	margin: 10px 0;
 }
+.shared_video a img#video_img {
+	display:block;	
+}
+.shared_video a img#subsite_video_img {
+	display:none;	
+}
+
 .shared_video_img_link {
 	position: absolute;
 	top: -20px;
@@ -780,7 +787,7 @@ a.merchantLink {
 .home_business_savings h1 {
 	padding: 0 0 10px 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #1a1f71;
 }
 .home_business_savings p {
 	width: 550px;
@@ -966,7 +973,7 @@ a.merchantLink {
 }
 .how_video h1 {
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #1a1f71;
 }
 .how_video p {
 	width: 500px;
@@ -1960,6 +1967,20 @@ a.infopop:active p.obscured{
 	display:block;
 }
 
+#subsite .shared_video a img#video_img {
+	display:none;	
+}
+#subsite .shared_video a img#subsite_video_img {
+	display:block;	
+}
+
+
+#subsite .home_business_savings h1,
+#subsite .shared_video h1,
+#subsite .how_video h1 {
+	color: #5c5c5c;
+}
+
 #subsite .home_merchants,
 #subsite .how_faqs,
 #subsite .home_viewalldiscounts,
@@ -2009,10 +2030,10 @@ a.infopop:active p.obscured{
 	width: 1024px;
 	height: 20px;
 	background-color: #efcd30;
-	xbackground: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
-	xbackground: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
-	xbackground: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
-	xbackground: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
+	background: -webkit-linear-gradient(left, #f19d25, #efcd30); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #f19d25, #efcd30); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #f19d25, #efcd30); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #f19d25, #efcd30); /* Standard syntax */
 }
 .global_content {
 	position: relative;
@@ -3452,6 +3473,10 @@ p.enroll_gradiant_legal {
 
 
 /* Subsites */
+
+#subsite .global_gradient-top {
+	display:none;	
+}
 
 #subsite .global_header { 
 	height:100px !important;
