@@ -222,6 +222,12 @@ ul.global_navigation li a:hover {
 	padding-top: 19px;
 	padding-left: 60px;
 }
+.global_footer-left img#footer_logo {
+	display:block;	
+}
+.global_footer-left img#footer_subsite {
+	display:none;	
+}
 .global_footer-right {
 	padding-top: 14px;
 	padding-right: 50px;
@@ -1933,6 +1939,12 @@ a.infopop:active p.obscured{
 }
 #subsite a.global_link-android {
 	background-image: url(|IMAGESRC|/footer-android-gray.png);
+}
+#subsite .global_footer-left img#footer_logo {
+	display:none;	
+}
+#subsite .global_footer-left img#footer_subsite {
+	display:block;	
 }
 
 #subsite ul.global_navigation li a.current,
