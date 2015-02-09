@@ -1300,8 +1300,8 @@ a.signInLink {
 	background: #ffffff;
 }
 .global_merchant_id img {
-	xfloat: right;
-	padding: 0 20px 0 0;
+	float: right;
+	padding: 20px 20px 0 0;
 	text-align:center; 
 }
 .global_offer {
