@@ -184,7 +184,7 @@ ul.global_navigation li a {
 	display: inline-block;
 	text-decoration: none;
 	font: lighter 18px/ 24px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #1a1f71;
 }
 ul.global_navigation li a.current {
 	border-bottom: solid 8px #f7b600;
@@ -1480,7 +1480,7 @@ p.enroll_gradiant_legal {
 }
 .enroll_download_apps_content h2 {
 	font: normal 18px/24px myriadregular, arial, sans-serif;
-	color: #5c5c5c;
+	color: #f7b600;
 }
 .enroll_download_apps_content p {
 	width: 500px;
@@ -1505,6 +1505,10 @@ p.enroll_gradiant_legal {
 
 #eligibility_error, .err, .error_msg, .err p {
 	color:#d00;	
+}
+
+.enroll_form .err p {
+	padding:0px 20px;	
 }
 
 /* Tooltip */      
@@ -1552,6 +1556,10 @@ a.infopop:active p.obscured{
 
 #subsite .global_gradient-top {
 	display:none;	
+}
+
+#subsite ul.global_navigation li a {
+	color:#5c5c5c;
 }
 
 /* FOOTER SECTION */
@@ -1630,6 +1638,11 @@ a.infopop:active p.obscured{
 #subsite .enroll_download_apps_content h1 {
 	color:|COLOR1| /*COLOR1*/;	
 }
+
+#subsite .enroll_download_apps_content h2 {
+	color: #5c5c5c;
+}
+
 
 #subsite ul.global_navigation li a.current {
 	border-bottom: solid 8px |COLOR1|;

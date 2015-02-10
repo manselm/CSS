@@ -196,7 +196,7 @@ ul.global_navigation li a {
 	display: inline-block;
 	text-decoration: none;
 	font: lighter 18px/ 24px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #1a1f71;
 }
 ul.global_navigation li a.current {
 	border-bottom: solid 8px #f7b600;
@@ -939,7 +939,7 @@ a.merchantLink {
 .shared_eligible label {
 	display: inline-block;
 	width: 400px;
-	font: lighter 12px/14px myriadlight, arial, sans-serif;
+	font: lighter 14px/14px myriadlight, arial, sans-serif;
 	color: #75787b;
 	margin: 0 0 20px 10px;
 }
@@ -1000,7 +1000,7 @@ a.merchantLink {
 	display: none;
 }
 
-.video_container a {
+.video_container a img {
 		display: none;
 }
 
@@ -1069,7 +1069,7 @@ a.merchantLink {
 }
 .accordion_article_content p {
 	padding: 15px 70px 20px 38px;
-	font: lighter 12px/14px myriadlight, arial, sans-serif;
+	font: lighter 14px/14px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
 .how_faqs .accordion_article_content p a {
@@ -1810,7 +1810,8 @@ p.enroll_gradiant_legal {
 }
 
 #terms_container {
-	padding:5px;	
+	padding:5px 15px;	
+	width:90%;
 }
 
 #terms_container #terms_container {
@@ -1916,6 +1917,10 @@ a.infopop:active p.obscured{
 	max-height:50px;
 	position:relative;
 	top:7px;
+}
+
+#subsite ul.global_navigation li a {
+	color:#5c5c5c;
 }
 
 /* FOOTER SECTION */
@@ -2050,6 +2055,14 @@ a.infopop:active p.obscured{
 	xbackground: -moz-linear-gradient(right, #190b51, #1c1391); /* For Firefox 3.6 to 15 */
 	xbackground: linear-gradient(to right, #190b51, #1c1391); /* Standard syntax */
 }
+.video_container video {
+	display: none;
+}
+.video_container a img {
+	display: block;
+	width: 300px;
+}
+
 }
 
 /*----------Smartphones (portrait and landscape)----------*/
@@ -2669,7 +2682,7 @@ p.merchantOfferDesc {
 .home_business_savings h1 {
 	width: 100%;
 	font: lighter 18px/22px myriadlight, arial, sans-serif;
-	color: #5c5c5c;
+	color: #1a1f71;
 }
 .home_business_savings p {
 	width: 300px;
@@ -2792,7 +2805,7 @@ p.merchantOfferDesc {
 .shared_eligible label {
 	display: inline-block;
 	width: 250px;
-	font: lighter 12px/14px myriadlight, arial, sans-serif;
+	font: lighter 14px/14px myriadlight, arial, sans-serif;
 	color: #75787b;
 	margin: 0 0 30px 10px;
 }
@@ -3466,7 +3479,7 @@ p.enroll_gradiant_legal {
 .video_container video {
 	display: none;
 }
-	.video_container a img{
+.video_container a img{
 	display: block;
 	width: 300px;
 }
@@ -3486,6 +3499,10 @@ p.enroll_gradiant_legal {
 	float:left;
 	border:none;
 	margin:5px 0px 0px;	
+}
+
+#subsite .home_business_savings h1 {
+	color:#5c5c5c;
 }
 
 #subsite a.global_link-facebook {
