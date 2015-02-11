@@ -2353,7 +2353,7 @@ h2.app {
 	text-indent: 0;
 	display: inline-block;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
 	font-style: normal;
 	height: 30px;
@@ -3141,7 +3141,7 @@ a.signInLink {
 }
 .global_merchant_id img {
 	float: left;
-	padding: 0 0 0 10px;
+	padding: 10px 0 0 10px;
 }
 .signin_feat_discount .global_offer {
     background: none repeat scroll 0 0 #ffffff;
