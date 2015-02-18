@@ -1218,11 +1218,15 @@ a.merchantLink {
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
+.learningcenter_articles .accordion_article_content ul li {
+	font: lighter 14px/18px myriadlight, arial, sans-serif;
+}
 .learningcenter_articles .continue_reading {
 	clear: both;
 	padding: 0 0 20px 325px;
 	font: normal 14px/16px myriadregular, arial, sans-serif;
 	color: #1a1f71;
+	cursor:pointer;
 }
 .learningcenter_articles .continue_reading_hidden {
 	clear: both;
@@ -1525,6 +1529,25 @@ textarea.myaccount {
 	font: lighter 12px/16px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
+/*Thankyou Style Section*/
+.accordion_desc h1.thankyou {
+	font: normal 24px/28px myriadregular, arial, sans-serif;
+	color: #1a1f71;
+} 
+.accordion_desc h2.thankyou {
+	font: normal 17px/24px myriadregular, arial, sans-serif;
+	color: #1a1f71;
+} 
+.accordion_desc p.thankyou {
+	width: 270px;
+	font: lighter 14px/17px myriadlight, arial, sans-serif;
+	color: #1a1f71;
+	margin: 7px 0 0 0;
+} 
+
+.accordion_desc p.thankyou a{
+	color: #1a1f71;
+} 
 /*Search results Style Section*/
 .searchresults_field {
 	width: 964px;
@@ -3142,6 +3165,7 @@ a.signInLink {
 .global_merchant_id img {
 	float: left;
 	padding: 10px 0 0 10px;
+	max-width:170px;
 }
 .signin_feat_discount .global_offer {
     background: none repeat scroll 0 0 #ffffff;
@@ -3162,7 +3186,7 @@ a.signInLink {
 .merchantName_mobile {
 	display: block;
 	position: relative;
-	top: 20px;
+	top: 5px;
 	left: 20px;
 	font: lighter 14px/18px myriadlight, arial, sans-serif;
 	color: #5c5c5c;
@@ -3321,6 +3345,28 @@ textarea.myaccount {
 	font: lighter 12px/16px myriadlight, arial, sans-serif;
 	color: #75787b;
 }
+/*Thankyou Style Section*/
+#thankyou.accordion_desc {
+	height: 160px;
+}
+.accordion_desc h1.thankyou {
+	font: normal 18px/26px myriadregular, arial, sans-serif;
+	color: #1a1f71;
+} 
+.accordion_desc h2.thankyou {
+	font: normal 16px/24px myriadregular, arial, sans-serif;
+	color: #1a1f71;
+} 
+.accordion_desc p.thankyou {
+	width: 270px;
+	font: lighter 14px/18px myriadlight, arial, sans-serif;
+	color: #1a1f71;
+	margin: 7px 0 0 0;
+} 
+
+.accordion_desc p.thankyou a{
+	color: #1a1f71;
+} 
 /*Search results Style Section*/
 .searchresults_field {
 	width: 310px;
