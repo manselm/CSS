@@ -46,18 +46,18 @@ table {
 /* if portrait mode is detected, rotate the entire site -90 degrees to hint rotating to landscape */
 @font-face {
 	font-family: 'myriadlight';
-	src: url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-light.eot');
-	src: url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-light.eot') format('embedded-opentype'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-light.woff2') format('woff2'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-light.woff') format('woff'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-light.ttf') format('truetype'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-light.svg#myriadlight') format('svg');
+	src: url('/e/visa/timages/fonts/myriad-light.eot');
+	src: url('/e/visa/timages/fonts/myriad-light.eot') format('embedded-opentype'), url('/e/visa/timages/fonts/myriad-light.woff2') format('woff2'), url('/e/visa/timages/fonts/myriad-light.woff') format('woff'), url('/e/visa/timages/fonts/myriad-light.ttf') format('truetype'), url('/e/visa/timages/fonts/myriad-light.svg#myriadlight') format('svg');
 }
 @font-face {
 	font-family: 'myriadregular';
-	src: url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-regular.eot');
-	src: url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-regular.eot') format('embedded-opentype'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-regular.woff2') format('woff2'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-regular.woff') format('woff'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-regular.ttf') format('truetype'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-regular.svg#myriadregular') format('svg');
+	src: url('/e/visa/timages/fonts/myriad-regular.eot');
+	src: url('/e/visa/timages/fonts/myriad-regular.eot') format('embedded-opentype'), url('/e/visa/timages/fonts/myriad-regular.woff2') format('woff2'), url('/e/visa/timages/fonts/myriad-regular.woff') format('woff'), url('/e/visa/timages/fonts/myriad-regular.ttf') format('truetype'), url('/e/visa/timages/fonts/myriad-regular.svg#myriadregular') format('svg');
 }
 @font-face {
 	font-family: 'myriadbold';
-	src: url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-bold.eot');
-	src: url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-bold.eot') format('embedded-opentype'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-bold.woff2') format('woff2'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-bold.woff') format('woff'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-bold.ttf') format('truetype'), url('https://www.visasavingsedge.com/e/visa/timages/fonts/myriad-bold.svg#myriadbold') format('svg');
+	src: url('/e/visa/timages/fonts/myriad-bold.eot');
+	src: url('/e/visa/timages/fonts/myriad-bold.eot') format('embedded-opentype'), url('/e/visa/timages/fonts/myriad-bold.woff2') format('woff2'), url('/e/visa/timages/fonts/myriad-bold.woff') format('woff'), url('/e/visa/timages/fonts/myriad-bold.ttf') format('truetype'), url('/e/visa/timages/fonts/myriad-bold.svg#myriadbold') format('svg');
 }
 body {
 	font-family: myriadlight, arial, sans-serif;
