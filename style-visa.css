@@ -1000,6 +1000,10 @@ a.merchantLink {
 	display: none;
 }
 
+.how_video_button { 	display: block; } 
+.how_video_button_ipad { 	display: none; }  
+.how_video_img_link_ipad { 	display: none; }
+
 .video_container a img {
 		display: none;
 }
@@ -1881,7 +1885,7 @@ p.enroll_gradiant_legal {
 	margin-bottom:8px;	
 }
 
-#eligibility_error, .err, .error_msg {
+#eligibility_error, .err, .error_msg, #eligibility_error p {
 	color:#d00;	
 }
 
@@ -2053,7 +2057,7 @@ a.infopop:active p.obscured{
 /*										2 Media Query	 												*/
 /********************************************************************************************************
 /*----------iPad (portrait and landscape)----------*/
-@media only screen and (min-device-width: 481px) and (max-device-width:768px) {
+@media only screen and (min-device-width: 481px) {
 .global_gradient-top {
 	width: 1024px;
 	height: 20px;
@@ -2085,6 +2089,18 @@ a.infopop:active p.obscured{
 	display: block;
 	width: 300px;
 }
+/*Hide desktop video buttons*/ 
+.how_video_button { 	display: none; } 
+.how_video_img_link { display: none; } 
+
+/*Show iPad video buttons*/
+.how_video_button_ipad { display: block; } 
+.how_video_img_link_ipad { 	
+display: block; 	
+position: absolute; 	
+top: -20px; 	
+left: 600px; 	
+cursor: pointer; } 
 
 }
 
@@ -2900,6 +2916,10 @@ p.merchantOfferDesc {
 .how_video_img_link_mobile a img {
 	display:none;	
 }
+
+/*Hide iPad video buttons*/ 
+.how_video_button_ipad {display: none; } 
+.how_video_img_link_ipad { 	display: none; }
 
 #subsite .how_video_img_link_mobile a img#subsite_hiw {
 	display:block;	
