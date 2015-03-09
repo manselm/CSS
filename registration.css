@@ -1287,6 +1287,8 @@ p.enroll_gradiant_legal {
 	max-height: 520px;
 	overflow: hidden;
 }
+.enroll_merchants_logos img {
+}
 .enroll_merchants h1 {
 	width: 85%;
 	font: normal 18px/22px myriadregular, arial, sans-serif;
@@ -1305,6 +1307,8 @@ p.enroll_gradiant_legal {
 	float:left;
 	width:170px;	
 	height:80px;
+	border-bottom:2px solid #dedddd;	
+	padding:10px 0px;
 }
 .enroll_merchants_logos .retailer .center {
 	width:150px;
@@ -1372,6 +1376,21 @@ p.enroll_gradiant_legal {
 	width: 252px;
 	margin: 0 0 5px 0;
 }
+
+.enroll_form input.cardnum::-webkit-outer-spin-button,
+.enroll_form input.cardnum::-webkit-inner-spin-button,
+.enroll_form input.reg_field::-webkit-outer-spin-button,
+.enroll_form input.reg_field::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.enroll_form input.cardnum[type="number"],
+input#zip[type="number"] {
+	-moz-appearance: textfield;
+}
+
 .enroll_form a {
 	display: block;
 	font: lighter 12px/16px myriadlight, arial, sans-serif;
