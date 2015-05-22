@@ -799,6 +799,29 @@ a.merchantLink {
 	float: left;
 	margin: 0 0 100px 0;
 }
+
+.bx-wrapper .banner_content {
+	position:absolute;
+	bottom:2%;	
+	width:100%;
+	text-align: center;
+	padding: 0px 0 18px 0;
+
+}
+
+.bx-wrapper h2 {
+	font-size: 40px;
+	line-height: 42px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	margin-bottom:20px;
+}
+
+.bx-wrapper .app_button-yellow {
+	margin:0px;
+}
+
+
 .home_business_savings h1 {
 	padding: 0 0 10px 0;
 	font: lighter 22px/26px myriadlight, arial, sans-serif;
@@ -2736,6 +2759,12 @@ p.merchantOfferDesc {
 .home_enroll {
 	display: none;
 }
+
+.bx-viewport h2 {
+	font-size: 16px;
+  	line-height: 18px;	
+}
+
 .home_business_savings {
 	position: relative;
 	width: 300px;
