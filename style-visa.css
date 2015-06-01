@@ -997,6 +997,12 @@ input#txtCardNumber::-webkit-inner-spin-button {
 	background-image: url("|IMAGESRC|/how_hero.jpg");
 	background-repeat: no-repeat;
 }
+.how_hero_mexico {
+	height: 449px;
+	background-image: url("|IMAGESRC|/how_hero_mexico.jpg");
+	background-repeat: no-repeat;
+}
+
 .how_hero_steps {
 	padding: 22px 0 0 40px
 }
@@ -2918,6 +2924,11 @@ p.merchantOfferDesc {
 .how_hero {
 	height: 225px;
 	background-image: url("|IMAGESRC|/how_hero_mobile.jpg");
+	background-repeat: no-repeat;
+}
+.how_hero_mexico {
+	height: 225px;
+	background-image: url("|IMAGESRC|/how_hero_mobile_mexico.jpg");
 	background-repeat: no-repeat;
 }
 .how_hero_steps {
