@@ -1984,6 +1984,52 @@ a.infopop:active p.obscured{
                 left:-200px;
 }
 
+/* Modals */
+
+.ui-dialog {
+	padding:0px;
+	border-radius:0px;
+	border-width:0px;
+	width:845px !important;
+}	
+
+.ui-widget-header {
+	border-width:0px;
+	background:#f0b32a;
+	border-radius:0px;
+	height:15px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	background:url(|IMAGESRC|/modal_close.png) no-repeat center center;
+	border-width:0px;
+	right:15px;
+}
+
+#modal {
+	line-height:1.2;	
+}
+
+#modal h4 {
+	font-size:22px;
+	color:#232096;
+	margin-top:1rem;
+	margin-bottom:3rem;	
+}
+
+#modal p {
+	font-size:18px;
+	color:#75787b;	
+}
+
+#modal p.small {
+	font-size:14px;	
+}
+
+.ui-widget-content a.app_button-blue {
+	color:#FFF;
+}
+
 /* Subsites */
 
 #subsite .global_header h1 a {
@@ -2928,7 +2974,7 @@ p.merchantOfferDesc {
 }
 .how_hero_mexico {
 	height: 225px;
-	background-image: url("|IMAGESRC|/how_hero_mobile_mexico.jpg");
+	background-image: url("|IMAGESRC|/how_hero_mexico_mobile.jpg");
 	background-repeat: no-repeat;
 }
 .how_hero_steps {
