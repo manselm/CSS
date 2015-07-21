@@ -593,6 +593,7 @@ p.dis_calculator {
 .merchant_catagory {
 	float: left;
 	border-bottom: 8px solid #f7b600;
+	width:100%;
 }
 .merchant_header {
 	float: left;
@@ -1314,6 +1315,26 @@ a.signInLink {
 	background: #ebebeb;
 	height: 337px;
 }
+.signin_hero.reset_email .signin_desc {
+	padding:11px 0 0 0;
+	font-size:0.8em;	
+}
+
+.signin_hero.reset_email .signin_desc #username,
+.signin_hero.reset_security .signin_desc #email_address_confirm,
+.signin_hero.reset_form .signin_desc #pwd_confirm {
+	margin-bottom:15px;	
+}
+
+.signin_hero.reset_security .signin_desc {
+	padding:15px 0 0 0;
+}
+
+.signin_hero.reset_form .signin_desc {
+	padding:5px 0 0 0;
+	font-size:0.75em;	
+}
+
 .signin_desc {
 	padding: 60px 0 0 0;
 	float: left;
