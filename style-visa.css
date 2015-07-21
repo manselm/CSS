@@ -3268,6 +3268,17 @@ a.signInLink {
 	float: left;
 	width: 300px;
 }
+.signin_hero.reset_email,
+.signin_hero.reset_security,
+.signin_hero.reset_form {
+	height:325px;
+}
+.signin_hero.reset_email .signin_desc,
+.signin_hero.reset_security .signin_desc,
+.signin_hero.reset_form .signin_desc {
+	font-size:1em;
+}
+
 .signin_desc a.app_button-blue {
 	margin: 0 0 0 58px;
 }
