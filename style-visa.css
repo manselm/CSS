@@ -598,7 +598,7 @@ p.dis_calculator {
 .merchant_header {
 	float: left;
 	width: 254px;
-	height: 139px;
+	height: 140px;
 	border: 1px solid #dedddd;
 	background: #ebebeb;
 }
@@ -2211,6 +2211,10 @@ a.infopop:active p.obscured{
 	display: block;
 	width: 300px;
 }
+
+.merchant_header
+{ border: 2px solid #dedddd; }
+.merchant_id { border: 2px solid #dedddd; }
 
 }
 @media only screen and (min-device-width: 768px) and (max-device-width:1024px) {
